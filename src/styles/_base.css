@@ -13,22 +13,24 @@
   transition: all 0.2s ease;
   display: inline-block;
   color: var(--link);
-
-  &:hover {
-   transform: translateY(-0.19rem);
-   color: var(--hover);
-  }
+ }
+ a:hover,
+ .up:hover {
+  transform: translateY(-0.19rem);
+  color: var(--hover);
  }
  button,
  [type="button"],
  [type="submit"],
  .btn-primary {
-  @apply cursor-pointer;
+  cursor: pointer;
  }
  h2,
  h3,
  h4 {
-  @apply tracking-tight font-bold mb-3;
+  letter-spacing: -1px;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
  }
  pre,
  code {
@@ -38,20 +40,46 @@
 
 @layer components {
  .btn-primary {
-  @apply inline-flex items-center justify-center rounded-lg font-semibold
-           transition-all duration-200 transform active:scale-95;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition-property: all;
+  transition-duration: 200ms;
   background-color: var(--link);
-  color: white;
+  color: #ffffff;
   min-height: 2rem;
  }
 
  .btn-primary:hover {
   background-color: var(--hover);
-  @apply shadow-lg;
+  background-color: var(--hover);
+  box-shadow:
+   0 10px 15px -3px rgba(0, 0, 0, 0.1),
+   0 4px 6px -4px rgba(0, 0, 0, 0.1);
+ }
+
+ .btn-primary:active {
+  transform: scale(0.95);
  }
 
  .input-field {
-  @apply w-full border border-slate-400 rounded-md px-4 py-2 mb-3 text-slate-500
-           focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all;
+  width: 100%;
+  border-width: 1px;
+  border-color: var(--color-slate-400);
+  border-radius: 0.375rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-slate-500);
+  outline: 2px solid transparent;
+  transition-property: all;
+ }
+ .input-field:focus {
+  box-shadow: 0 0 0 2px #3b82f6;
+  border-color: transparent;
  }
 }
