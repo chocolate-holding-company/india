@@ -1,0 +1,40 @@
+<section id="comments-section" class="max-w-4xl mt-10 mx-auto px-4">
+ <h3 class="text-2xl text-center mb-8">
+  Comments (<span class="text-slate-500" id="comment-count">0</span>)
+ </h3>
+
+ <div
+  id="comment-list"
+  class="space-y-8 mb-12 bg-gray-50 border border-slate-300 rounded-2xl p-6 md:p-8"
+ ></div>
+
+ <div class="bg-gray-50 border border-slate-300 rounded-2xl p-6 md:p-8">
+  <h4 class="text-lg text-slate-700 font-bold mb-4">Leave a response</h4>
+  <form id="comment-form" class="space-y-4" novalidate>
+   <input type="text" name="c_hp" class="hidden" tabindex="-1" />
+   <div class="grid grid-cols-1 gap-4">
+    <input
+     type="text"
+     name="name"
+     required
+     placeholder="Name"
+     class="input-field"
+    />
+   </div>
+   <textarea
+    name="comment"
+    required
+    rows="4"
+    placeholder="Your comment..."
+    class="w-full input-field"
+   ></textarea>
+   <button type="submit" class="btn-primary px-8 py-3">Post Comment</button>
+  </form>
+  <div id="comment-success" class="hidden mt-4 text-green-600 font-bold">
+   ✓ Your comment is on its way! It should appear shortly.
+  </div>
+  <div id="comment-error" class="hidden mt-4 text-red-600 font-bold">
+   Unable to load comments. Please check your connection or try again later.
+  </div>
+ </div>
+</section>

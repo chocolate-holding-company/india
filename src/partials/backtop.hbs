@@ -1,0 +1,30 @@
+<button
+ id="back-to-top"
+ onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+ class="fixed bottom-8 right-8 w-14 h-14 bg-white dark:bg-gray-800 rounded-full shadow-2xl flex items-center justify-center invisible opacity-0 transition-all duration-500 z-50 hide"
+>
+ <svg width="50" height="50">
+  <circle
+   cx="25"
+   cy="25"
+   r="22"
+   stroke="currentColor"
+   class="text-brand"
+   stroke-width="3"
+   fill="transparent"
+  />
+  <circle
+   id="progress-ring"
+   cx="25"
+   cy="25"
+   r="22"
+   stroke="currentColor"
+   class="text-gray-400"
+   stroke-width="3"
+   fill="transparent"
+   stroke-dasharray="138.2"
+   stroke-dashoffset="138.2"
+  />
+ </svg>
+ <span class="absolute text-brand font-bold text-xl">↑</span>
+</button>

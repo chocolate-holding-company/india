@@ -1,0 +1,89 @@
+<html lang="en">
+ <head>
+  <link rel="stylesheet" href="/src/styles/main.css" />
+ </head>
+ <body>
+  <div class="fixed top-0 left-0 w-full h-1.5 z-110 bg-gray-200/30"></div>
+  <div>
+   <main class="max-w-6xl mx-auto px-6 py-12">
+    <div class="mb-12">
+     <h1 class="text-4xl font-bold mb-2">Admin Dashboard</h1>
+     <p class="text-gray-600">Review and moderate user messages.</p>
+
+     <!-- Dynamic Page Navigation -->
+     <nav class="flex gap-4 mt-6 border-b pb-4">
+      <a
+       href="admin.html"
+       class="text-sm font-semibold text-gray-500 hover:text-gray-900 pb-2"
+      >Comments</a>
+      <a
+       href="admin-contacts.html"
+       class="text-sm font-bold text-brand border-b-2 border-brand pb-2"
+      >Contacts</a>
+      <a
+       href="admin-newsletter.html"
+       class="text-sm font-semibold text-gray-500 hover:text-gray-900 pb-2"
+      >Newsletter</a>
+     </nav>
+    </div>
+
+    <!-- Sign In Panel -->
+    <div id="admin-login" class="bg-white border rounded-2xl p-8 shadow-sm">
+     <h2 class="text-2xl font-bold mb-4">Sign in</h2>
+     <form id="admin-login-form" class="space-y-4" novalidate>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+       <input
+        type="email"
+        name="email"
+        required
+        placeholder="Email"
+        class="input-field"
+       />
+       <input
+        type="password"
+        name="password"
+        required
+        placeholder="Password"
+        class="input-field"
+       />
+      </div>
+      <div
+       class="flex flex-col md:flex-row md:items-center md:justify-between gap-3"
+      >
+       <button type="submit" class="btn-primary px-8 py-3">Sign in</button>
+       <div id="admin-login-status" class="text-sm text-red-600"></div>
+      </div>
+     </form>
+    </div>
+
+    <!-- Dashboard Content Area -->
+    <div id="admin-panel" class="hidden mt-10">
+     <div
+      class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-8"
+     >
+      <div>
+       <p class="text-sm text-gray-600">
+        Signed in as
+        <span id="admin-email" class="font-semibold"></span>
+       </p>
+      </div>
+      <button id="admin-signout" class="btn-secondary px-6 py-2">
+       Sign out
+      </button>
+     </div>
+
+     <section>
+      <h2 class="text-2xl font-bold mb-4">Contact messages</h2>
+      <div id="admin-contacts" class="space-y-4">
+       <p class="text-sm text-gray-500">Loading contacts…</p>
+      </div>
+     </section>
+    </div>
+   </main>
+  </div>
+
+  <script type="module" src="/src/scripts/firebase-service.js"></script>
+  <!-- Points directly to our dedicated contacts script -->
+  <script type="module" src="/src/scripts/admin-contacts.js"></script>
+ </body>
+</html>

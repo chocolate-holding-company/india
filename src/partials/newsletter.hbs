@@ -1,0 +1,37 @@
+<section class="newsletter-section bg-slate-800 mb-6 py-3 px-4">
+ <div class="max-w-xl mx-auto text-center">
+  <h3 class="text-xl font-semibold text-white mb-2">Join our Newsletter</h3>
+  <p class="text-gray-400 mb-6 text-sm">Stay updated with our latest news and
+   features.</p>
+
+  <form
+   id="newsletter-form"
+   class="flex flex-col px-8 sm:px-10 sm:flex-row gap-4 sm:gap-2"
+  >
+   <input
+    type="text"
+    name="hp_news"
+    class="hidden"
+    tabindex="-1"
+    autocomplete="off"
+   />
+
+   <input
+    type="email"
+    id="news-email"
+    name="email"
+    placeholder="email@example.com"
+    required
+    class="flex-1 p-2 bg-slate-900 border border-slate-600 text-white rounded focus:ring-2 focus:ring-blue-500 outline-none"
+   />
+
+   <button
+    type="submit"
+    class="bg-blue-600 hover:bg-blue-500 text-white px-6 py-2 rounded transition-colors"
+   >Subscribe</button>
+  </form>
+  <div id="newsletter-success" class="hidden mt-4 text-green-600 font-bold">
+   ✓ Thanks for subscribing!
+  </div>
+ </div>
+</section>

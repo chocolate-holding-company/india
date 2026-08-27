@@ -1,0 +1,31 @@
+<footer class="bg-slate-800 py-8 mt-15">
+
+ <div class="max-w-5xl mx-auto text-center">
+{{> dark-mode }}
+  <div class="text-gray-300">
+   <span>&copy;2026 Cycling India</span>
+   |
+   <button
+    id="open-contact"
+    class="text-slate-100 text-sm sm:text-base hover:text-gray-300 up cursor-pointer"
+   >
+    Contact
+   </button>
+   |
+   <button
+    id="open-privacy"
+    class="text-slate-100 text-sm sm:text-base hover:text-gray-300 up cursor-pointer"
+   >
+    Privacy
+   </button>
+
+  </div>
+ </div>
+</footer>
+
+<div
+ id="modal-overlay"
+ class="fixed inset-0 bg-black/50 backdrop-blur-sm z-140 hidden items-center justify-center p-4"
+>
+{{> contact }} {{> privacy }}
+</div>

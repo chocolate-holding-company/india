@@ -1,0 +1,50 @@
+<div class="fixed top-6 right-6 z-130">
+ <button
+  id="menu-btn"
+  class="p-3 bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-500 ease-in-out opacity-100 active:scale-90 focus:outline-none hover:bg-gray-700"
+ >
+  <svg
+   id="hamburger-icon"
+   xmlns="http://www.w3.org/2000/svg"
+   class="h-6 w-6 text-white"
+   fill="none"
+   viewBox="0 0 24 24"
+   stroke="currentColor"
+  >
+   <path
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    d="M4 8h16M4 16h16"
+   />
+  </svg>
+  <svg
+   id="close-icon"
+   xmlns="http://www.w3.org/2000/svg"
+   class="h-6 w-6 text-white hidden"
+   fill="none"
+   viewBox="0 0 24 24"
+   stroke="currentColor"
+  >
+   <path
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+    d="M6 18L18 6M6 6l12 12"
+   />
+  </svg>
+ </button>
+</div>
+
+<div
+ id="full-menu"
+ class="fixed inset-0 bg-slate-950 z-120 transform translate-x-full opacity-0 transition-all duration-700 ease-in-out overflow-y-auto"
+>
+ <div
+  class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 px-10 md:pl-15 pt-28 pb-20 w-full lg:pl-0 max-w-4xl mx-auto"
+ >
+  <div id="left-nav" class="flex flex-col space-y-12"></div>
+
+  <div id="right-nav" class="flex flex-col space-y-12"></div>
+ </div>
+</div>

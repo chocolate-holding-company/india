@@ -1,0 +1,93 @@
+<div
+ id="contact-modal"
+ class="bg-slate-800 rounded-2xl w-full max-w-md p-8 shadow-2xl hidden relative"
+>
+ <button
+  class="close-modal absolute top-4 right-4 text-slate-100 hover:text-rose-600"
+ >
+  ✕
+ </button>
+ <h2 class="text-2xl font-bold mb-6 text-slate-100">Get in Touch</h2>
+
+ <form id="contact-form" novalidate>
+  <div class="hidden">
+   <input
+    type="text"
+    name="hp_field"
+    id="hp_field"
+    tabindex="-1"
+    autocomplete="off"
+   />
+  </div>
+
+  <div class="space-y-4">
+   <div>
+    <label class="block text-slate-100 text-sm font-semibold mb-1">Name</label>
+    <input
+     type="text"
+     name="name"
+     required
+     class="w-full px-4 py-2 text-base rounded-lg border-2 border-border-subtle bg-blue-100 text-blue-950 outline-none transition-all"
+     placeholder="Your Name"
+    />
+   </div>
+   <div>
+    <label class="block text-slate-100 text-sm font-semibold mb-1">Email</label>
+    <input
+     type="email"
+     name="email"
+     required
+     class="w-full px-4 py-2 text-base bg-blue-100 text-blue-950 rounded-lg border-2 border-border-subtle outline-none transition-all"
+     placeholder="email@example.com"
+    />
+   </div>
+   <div class="mb-6">
+    <label
+     class="block text-slate-100 text-sm font-semibold mb-1"
+    >Message</label>
+    <textarea
+     name="message"
+     required
+     rows="4"
+     class="w-full px-4 py-2 text-base bg-blue-100 text-blue-950 rounded-lg border-2 border-border-subtle outline-none transition-all"
+     placeholder="How can we help?"
+    ></textarea>
+   </div>
+   <button
+    type="submit"
+    id="submit-btn"
+    class="btn-primary w-50 mx-auto py-3 flex items-center justify-center gap-3 relative transition-all disabled:opacity-70 disabled:cursor-not-allowed"
+   >
+    <span id="btn-text">Send Message</span>
+
+    <svg
+     id="btn-spinner"
+     class="animate-spin h-5 w-5 text-white hidden"
+     xmlns="http://www.w3.org/2000/svg"
+     fill="none"
+     viewBox="0 0 24 24"
+    >
+     <circle
+      class="opacity-25"
+      cx="12"
+      cy="12"
+      r="10"
+      stroke="currentColor"
+      stroke-width="4"
+     ></circle>
+     <path
+      class="opacity-75"
+      fill="currentColor"
+      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+     ></path>
+    </svg>
+   </button>
+  </div>
+ </form>
+
+ <div id="success-msg" class="hidden text-center py-8">
+  <div class="text-green-500 text-5xl mb-4">✓</div>
+  <h3 class="text-xl text-slate-100 font-bold">Message Sent!</h3>
+  <p class="text-slate-200">We'll get back to you shortly.</p>
+ </div>
+</div>

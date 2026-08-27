@@ -1,0 +1,9 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+# Direct all non-existent paths to your custom 404 page
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

@@ -1,0 +1,546 @@
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Packing List</title>
+  <script>
+    /* 1. This script runs IMMEDIATELY */
+    const theme = localStorage.getItem('theme') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
+  <link rel="stylesheet" href="/src/styles/main.css" />
+ </head>
+ <body class="antialiased">
+  <div id="top-progress-container" class="fixed top-0 left-0 w-full h-1 z-2000">
+   <div id="top-progress-bar" class="h-full bg-brand w-0"></div>
+  </div>
+  <div class="fixed top-6 right-6 z-130">
+   <button
+    id="menu-btn"
+    class="p-3 bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-500 ease-in-out opacity-100 active:scale-90 focus:outline-none hover:bg-gray-700"
+   >
+    <svg
+     id="hamburger-icon"
+     xmlns="http://www.w3.org/2000/svg"
+     class="h-6 w-6 text-white"
+     fill="none"
+     viewBox="0 0 24 24"
+     stroke="currentColor"
+    >
+     <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M4 8h16M4 16h16"
+     />
+    </svg>
+    <svg
+     id="close-icon"
+     xmlns="http://www.w3.org/2000/svg"
+     class="h-6 w-6 text-white hidden"
+     fill="none"
+     viewBox="0 0 24 24"
+     stroke="currentColor"
+    >
+     <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M6 18L18 6M6 6l12 12"
+     />
+    </svg>
+   </button>
+  </div>
+  
+  <div
+   id="full-menu"
+   class="fixed inset-0 bg-slate-950 z-120 transform translate-x-full opacity-0 transition-all duration-700 ease-in-out overflow-y-auto"
+  >
+   <div
+    class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 px-10 md:pl-15 pt-28 pb-20 w-full lg:pl-0 max-w-4xl mx-auto"
+   >
+    <div id="left-nav" class="flex flex-col space-y-12"></div>
+  
+    <div id="right-nav" class="flex flex-col space-y-12"></div>
+   </div>
+  </div>  <header
+  class="hero-parallax relative h-[60vh] min-h-125 flex items-end justify-center py-8 text-white overflow-hidden shadow-md"
+  style="--bg-url: url('/src/assets/images/packing-two.png');"
+>
+  <!-- Background Layer (Parallaxed) -->
+  <div class="parallax-bg absolute inset-0 -z-10 bg-cover bg-center bg-no-repeat pointer-events-none"></div>
+
+  <!-- Content Layer (Parallax Fade/Translate) -->
+  <div class="parallax-content relative z-10 max-w-4xl mx-auto px-4 pb-10">
+    <h1 class="text-h1-fluid font-extrabold tracking-tight mb-4 leading-tight">
+      Packing List
+    </h1>
+    <h4 class="text-lead-fluid mb-4 text-slate-100 font-medium">
+      Packing for a cycle tour in India takes some planning, we need to be light yet carry all essential clothing and bike tools and fit all into two 20ltr panniers.
+    </h4>
+    <time class="text-secondary-fluid text-slate-200 font-medium">
+      6 Jul 2026
+    </time>
+  </div>
+</header>
+
+  <main class="max-w-4xl mx-auto px-4 py-6 prose space-y-3">
+   <p><figure class="my-8">
+            <img src="/src/assets/images/bike-bags.png" alt="Gary Fisher Cycle with Ortlieb Panniers"  class="w-full rounded-lg shadow-sm" />
+            <figcaption class="mt-2 text-center text-sm text-var(--text-color) italic">Gary Fisher Cycle with Ortlieb Panniers</figcaption>
+          </figure></p>
+<hr>
+<p>I got all this lot into a pair of Ortlieb panniers, total 40lt. I would really recommend Ortlieb, top class panniers. I had one problem with the fixing bracket on the Indian rough roads, see the last chapter &#39;<a href="/conclusion/">In Conclusion&#39; - &#39;Bike Problems</a>&#39;.</p>
+<h2>Documents</h2>
+<ul>
+<li>Money Belt</li>
+<li>Credit Card (<em>copy number</em>)</li>
+<li>ATM Debit Card (<em>copy number</em>)</li>
+<li>Passport (<em>scan</em>) - <em>Documents scanned to upload to Mobile Me</em></li>
+<li>Visa/Travel Permits (<em>scan</em>)</li>
+<li>Document Copies (<em>copies of all important documents</em>)</li>
+<li>Vaccination Records (<em>scan</em>)- *Rabies, Tetanus/Diphtheria/Polio, Hepatitis A + B, Typhoid, Japanese Encephalitis**</li>
+<li>Motorcycle Licence (<em>scan</em>)</li>
+<li>Airline Tickets (<em>Scan</em>)</li>
+<li>Travel Insurance Policy (<em>Scan</em>)</li>
+<li>Hostel Membership</li>
+<li>Passport Photos</li>
+<li>Glasses Prescription (<em>Scan</em>)</li>
+<li>Small thin wallet</li>
+</ul>
+<hr><div class="my-10 p-4 border-l-4 rounded-r-lg bg-slate-100 border-slate-500 text-slate-900 not-prose">
+            <div class="font-bold text-xs uppercase tracking-wider mb-1">INFO</div>
+            <div class="text-sm leading-relaxed"><p>Where documents/papers were scanned - I scanned these to an online account ‘Mobile Me’</p></div>
+          </div><div class="my-10 p-4 border-l-4 rounded-r-lg bg-slate-100 border-slate-500 text-slate-900 not-prose">
+            <div class="font-bold text-xs uppercase tracking-wider mb-1">INFO</div>
+            <div class="text-sm leading-relaxed"><p>Vaccination notes: Most of the vaccinations are quite cheap or free. Japanese Encephalitis is very expensive, £90.00 plus and may only be needed if visiting North India - check with the NHS website or your GP surgery. I never took or used any Malaria Tablets, they are very expensive and may only be needed if visiting North India, again, check</p></div>
+          </div><hr>
+<h2>Cycle Info</h2>
+<ul>
+<li>Gary Fisher - <em>Marlin Disc</em></li>
+<li>Frame - <em>Gold Series 6061 T6 aluminium, G2 Geometry, butted DT, cold-forged dropouts &amp; BB</em></li>
+<li>Brake Set - <em>Avid BB5, mechanical disc, 160mm rotors</em></li>
+<li>Wheels - <em>Shimano M475 6-bolt disc hubs, Bontrager Ranger disc rims, 32h</em></li>
+<li>Tires - <em>Schwalbe Marathon 2.2</em></li>
+<li>Crank set - <em>Shimano M442-L, 44s/32s/22s</em></li>
+<li>Front Derailleur - <em>Shimano M531 Deore</em></li>
+<li>Rear Derailleur - <em>Shimano M531 Deore</em></li>
+<li>Shifters - <em>Shimano Deore M530</em></li>
+</ul>
+<hr>
+<h2>Bike Equipment</h2>
+<ul>
+<li>Touring Seating</li>
+<li>Rear Rack</li>
+<li>Handle Bar Bag</li>
+<li>Ortlieb Classic Back Panniers</li>
+<li>Waterproof Sack</li>
+<li>Cycle Computer and Spare Battery</li>
+<li>Pannier Spare Parts x 2 - <em>Brackets that secure bottom of pannier to rack (see cycle problems - ‘In Conclusion’ chapter)</em></li>
+<li>Pannier Rucksack Accessory - <em>Turns one of the panniers into a day rucksack - pretty useless</em></li>
+</ul>
+<hr>
+<h2>Clothes</h2>
+<ul>
+<li>1 Pair Long Trousers (<em>Lightweight</em>)</li>
+<li>2 Pair Shorts</li>
+<li>2 Tee Shirts</li>
+<li>1 Micro Fleece (<em>Thin Layer</em>)</li>
+<li>1 Long Sleeved Shirt – <em>Purchased in India</em></li>
+<li>Sarong – <em>Purchased in India</em></li>
+<li>Swim Shorts</li>
+<li>4 pairs Underwear</li>
+<li>4 pairs of Socks</li>
+<li>Hat - <em>Purchased in India</em></li>
+<li>Sunglasses - <em>Purchased in India</em></li>
+<li>Bandana or Handkerchief - <em>Purchased in India</em></li>
+<li>Sandals - <em>Purchased in India</em></li>
+<li>All Terrain Shoes</li>
+<li>Tracksuit Bottoms - <em>Running Pants - Never used</em></li>
+</ul>
+<hr>
+<h2>Bathroom</h2>
+<ul>
+<li>Toothbrush, Toothpaste and Floss Sticks</li>
+<li>Micro Towel</li>
+<li>Shampoo, Soap and Soap Box</li>
+<li>Razor</li>
+<li>Mirror (<em>Small</em>)</li>
+<li>Scissors</li>
+<li>Face cloth</li>
+<li>Wash Bag</li>
+</ul>
+<hr>
+<h2>Other</h2>
+<ul>
+<li>Sewing Kit with Spare Buttons (<em>Never used</em>)</li>
+<li>Head Torch (<em>3 AAA Batteries</em>)</li>
+<li>Net Book Computer + Power Cord – <em>240v 3amp</em></li>
+<li>3 USB Flash Drives – <em>128Mb, 2 Gig &amp; 16 Gig</em></li>
+<li>iPod + Power Cord to Mains + USB lead</li>
+<li>External Speakers + Batteries <em>(AAA) &amp; USB Power Cord</em></li>
+<li>Mobile Phone + Power Cord</li>
+<li>Camera + Power Cord – <em>240v 5Amp</em></li>
+<li>1 Extra Memory Card (<em>Camera</em>)</li>
+<li>Plug Adaptor For Asia</li>
+<li>2 Pairs Glasses (<em>I need them for reading</em>)</li>
+<li>2 Lens wipes</li>
+<li>Small Binoculars</li>
+<li>Mosquito Net</li>
+<li>Note Book + Pens/Pencils</li>
+<li>Universal Sink Plug (<em>absolute rubbish</em>)</li>
+<li>String</li>
+<li>Water Purifier - <em>UV type (These are really good but expensive. The tap water in India is warm, if it’s not, it soon gets too warm to drink with the sun on route. Bottled water in India is cheap and is purified by the same UV method. Coke and other soft drinks are cheap. It’s not worth taking a water purifier)</em></li>
+<li>Map, Guide Book, Phrase Book (<em>India</em>) - <em>Good local/state maps can be purchased cheaply in India</em></li>
+<li>Compass - <em>Useful for getting out of towns</em></li>
+<li>2 Bike Locks</li>
+<li>2 Small Padlocks</li>
+<li>Fuses <em>3 – 5 amp</em></li>
+<li>Battery Charger <em>with 4 x AA &amp; 4 x AAA</em></li>
+<li>Magnifying Glass</li>
+</ul>
+<hr>
+<h2>First Aid Kit</h2>
+<ul>
+<li>Anti-Diarrhoea Tablets</li>
+<li>Anti-Septic Cream</li>
+<li>Paracetamol and Ibuprofen</li>
+<li>Indigestion Tablets</li>
+<li>Assorted Plasters (<em>Fabric</em>)</li>
+<li>Antihistamine Cream</li>
+<li>Insect Repellent (<em>Mosquito</em>)</li>
+<li>Gauze Pads</li>
+<li>Sun Cream</li>
+<li>Multi-Vitamins</li>
+<li>Re-hydration Salts</li>
+<li>Sterile Dressings</li>
+<li>Sterile Needles &amp; Syringes - <em>Bought these off the internet not sure if I would have had the bottle to use them, there were some mean looking syringes - ended up taking a couple of the smallest, still didn’t like the look of them. Better to purchase from a shop so that you see what your buying.</em></li>
+<li>Surgical Tape</li>
+<li>Mouth ulcer cream</li>
+<li>Tweezers</li>
+<li>Bag to hold above</li>
+</ul>
+<hr>
+<h2>Tools/Spares</h2>
+<ul>
+<li>Puncture Outfit with Lots Of Patches/Glue</li>
+<li>Tire Levers</li>
+<li>Pump</li>
+<li>Pressure Gauge</li>
+<li>Allen Key Set (<em>Up to 8mm</em>)</li>
+<li>Spoke Wrench</li>
+<li>Small Screw Driver</li>
+<li>Jewellers Screw Driver</li>
+<li>Multi Tool</li>
+<li>Movable Spanner</li>
+<li>Freewheel Remover</li>
+<li>Cone Spanner</li>
+<li>Electrical Tape</li>
+<li>Zip Ties long &amp; short</li>
+<li>Duck Tape</li>
+<li>Wire</li>
+<li>Grease – <em>Purchase in India when needed (didn’t need any)</em></li>
+<li>Chain Lube - <em>Purchase in India when needed (Bike shops will oil chain free or for a couple of Rupees, oil usually thick)</em></li>
+<li>Superglue</li>
+<li>Small File</li>
+<li>Inner tube x 2</li>
+<li>Brake Blocks x 3</li>
+<li>Brake Cables (<em>Longest</em>) x 2</li>
+<li>Gear Cables (<em>Longest</em>) x 2</li>
+<li>Spokes - 10 (<em>Smaller on Back Wheel</em>)</li>
+<li>Jockey Wheels</li>
+<li>Bearings (<em>Wheel</em>)</li>
+<li>Chain + Master Links</li>
+<li>Spare Assorted Nuts &amp; Bolts</li>
+<li>Bag for the above</li>
+</ul>
+<hr>
+<p><strong>If I went again:</strong></p>
+<ul>
+<li>Small electric heater - <em>to make coffee in the morning as coffee was hard to get early in the morning especially on the east coast</em></li>
+<li>Cup and Spoon</li>
+<li>Inflatable Pillow - <em>most pillows in India are either hard or grubby</em></li>
+<li>A lonely planet guide book (<em>guides you to the tourist areas of the bigger towns. I really missed a decent guide book</em>)</li>
+</ul>
+
+   <hr>
+   <nav class="mx-4 pb-10 border-b-slate-400 border-b-[1px]">
+   <a href="/">← Back Home</a>
+  </nav>
+  </main>
+
+  <section id="comments-section" class="max-w-4xl mt-10 mx-auto px-4">
+   <h3 class="text-2xl text-center mb-8">
+    Comments (<span class="text-slate-500" id="comment-count">0</span>)
+   </h3>
+  
+   <div
+    id="comment-list"
+    class="space-y-8 mb-12 bg-gray-50 border border-slate-300 rounded-2xl p-6 md:p-8"
+   ></div>
+  
+   <div class="bg-gray-50 border border-slate-300 rounded-2xl p-6 md:p-8">
+    <h4 class="text-lg text-slate-700 font-bold mb-4">Leave a response</h4>
+    <form id="comment-form" class="space-y-4" novalidate>
+     <input type="text" name="c_hp" class="hidden" tabindex="-1" />
+     <div class="grid grid-cols-1 gap-4">
+      <input
+       type="text"
+       name="name"
+       required
+       placeholder="Name"
+       class="input-field"
+      />
+     </div>
+     <textarea
+      name="comment"
+      required
+      rows="4"
+      placeholder="Your comment..."
+      class="w-full input-field"
+     ></textarea>
+     <button type="submit" class="btn-primary px-8 py-3">Post Comment</button>
+    </form>
+    <div id="comment-success" class="hidden mt-4 text-green-600 font-bold">
+     ✓ Your comment is on its way! It should appear shortly.
+    </div>
+    <div id="comment-error" class="hidden mt-4 text-red-600 font-bold">
+     Unable to load comments. Please check your connection or try again later.
+    </div>
+   </div>
+  </section> <footer class="bg-slate-800 py-8 mt-15">
+<section class="newsletter-section bg-slate-800 mb-6 py-3 px-4">
+ <div class="max-w-xl mx-auto text-center">
+  <h3 class="text-xl font-semibold text-white mb-2">Join our Newsletter</h3>
+  <p class="text-gray-400 mb-6 text-sm">Stay updated with our latest news and
+   features.</p>
+
+  <form
+   id="newsletter-form"
+   class="flex flex-col px-8 sm:px-10 sm:flex-row gap-4 sm:gap-2"
+  >
+   <input
+    type="text"
+    name="hp_news"
+    class="hidden"
+    tabindex="-1"
+    autocomplete="off"
+   />
+
+   <input
+    type="email"
+    id="news-email"
+    name="email"
+    placeholder="email@example.com"
+    required
+    class="flex-1 p-2 bg-slate-900 border border-slate-600 text-white rounded focus:ring-2 focus:ring-blue-500 outline-none"
+   />
+
+   <button
+    type="submit"
+    class="bg-blue-600 hover:bg-blue-500 text-white px-6 py-2 rounded transition-colors"
+   >Subscribe</button>
+  </form>
+  <div id="newsletter-success" class="hidden mt-4 text-green-600 font-bold">
+   ✓ Thanks for subscribing!
+  </div>
+ </div>
+</section> <div class="max-w-5xl mx-auto text-center">
+<button
+ id="themeToggle"
+ class="relative w-10 h-10 flex items-center justify-center rounded-xl bg-gray-600 transition-colors overflow-hidden border border-transparent hover:border-gray-300 mx-auto mb-8"
+>
+
+ <span class="sun-icon absolute transition-all duration-500 text-xl">☀️</span>
+
+ <span class="moon-icon absolute transition-all duration-500 text-xl">🌙</span>
+
+</button>  <div class="text-gray-300">
+   <span>&copy;2026
+    <a
+     href="/"
+     class="text-slate-100 text-sm sm:text-base hover:text-gray-300"
+    >Cycling India</a></span>
+   |
+   <button
+    id="open-contact"
+    class="text-slate-100 text-sm sm:text-base hover:text-gray-300 up cursor-pointer"
+   >
+    Contact
+   </button>
+   |
+   <button
+    id="open-privacy"
+    class="text-slate-100 text-sm sm:text-base hover:text-gray-300 up cursor-pointer"
+   >
+    Privacy
+   </button>
+
+  </div>
+ </div>
+</footer>
+
+<div
+ id="modal-overlay"
+ class="fixed inset-0 bg-black/50 backdrop-blur-sm z-140 hidden items-center justify-center p-4"
+>
+<div
+ id="contact-modal"
+ class="bg-slate-800 rounded-2xl w-full max-w-md p-8 shadow-2xl hidden relative"
+>
+ <button
+  class="close-modal absolute top-4 right-4 text-slate-100 hover:text-rose-600"
+ >
+  ✕
+ </button>
+ <h2 class="text-2xl font-bold mb-6 text-slate-100">Get in Touch</h2>
+
+ <form id="contact-form" novalidate>
+  <div class="hidden">
+   <input
+    type="text"
+    name="hp_field"
+    id="hp_field"
+    tabindex="-1"
+    autocomplete="off"
+   />
+  </div>
+
+  <div class="space-y-4">
+   <div>
+    <label class="block text-slate-100 text-sm font-semibold mb-1">Name</label>
+    <input
+     type="text"
+     name="name"
+     required
+     class="w-full px-4 py-2 text-base rounded-lg border-2 border-border-subtle bg-blue-100 text-blue-950 outline-none transition-all"
+     placeholder="Your Name"
+    />
+   </div>
+   <div>
+    <label class="block text-slate-100 text-sm font-semibold mb-1">Email</label>
+    <input
+     type="email"
+     name="email"
+     required
+     class="w-full px-4 py-2 text-base bg-blue-100 text-blue-950 rounded-lg border-2 border-border-subtle outline-none transition-all"
+     placeholder="email@example.com"
+    />
+   </div>
+   <div class="mb-6">
+    <label
+     class="block text-slate-100 text-sm font-semibold mb-1"
+    >Message</label>
+    <textarea
+     name="message"
+     required
+     rows="4"
+     class="w-full px-4 py-2 text-base bg-blue-100 text-blue-950 rounded-lg border-2 border-border-subtle outline-none transition-all"
+     placeholder="How can we help?"
+    ></textarea>
+   </div>
+   <button
+    type="submit"
+    id="submit-btn"
+    class="btn-primary w-50 mx-auto py-3 flex items-center justify-center gap-3 relative transition-all disabled:opacity-70 disabled:cursor-not-allowed"
+   >
+    <span id="btn-text">Send Message</span>
+
+    <svg
+     id="btn-spinner"
+     class="animate-spin h-5 w-5 text-white hidden"
+     xmlns="http://www.w3.org/2000/svg"
+     fill="none"
+     viewBox="0 0 24 24"
+    >
+     <circle
+      class="opacity-25"
+      cx="12"
+      cy="12"
+      r="10"
+      stroke="currentColor"
+      stroke-width="4"
+     ></circle>
+     <path
+      class="opacity-75"
+      fill="currentColor"
+      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+     ></path>
+    </svg>
+   </button>
+  </div>
+ </form>
+
+ <div id="success-msg" class="hidden text-center py-8">
+  <div class="text-green-500 text-5xl mb-4">✓</div>
+  <h3 class="text-xl text-slate-100 font-bold">Message Sent!</h3>
+  <p class="text-slate-200">We'll get back to you shortly.</p>
+ </div>
+</div> <div
+ id="privacy-modal"
+ class="bg-slate-800 rounded-2xl w-full max-w-2xl p-8 shadow-2xl hidden relative max-h-[80vh] overflow-y-auto"
+>
+ <button
+  class="close-modal absolute top-4 right-4 text-slate-200 hover:text-rose-600"
+ >
+  ✕
+ </button>
+ <h2 class="text-3xl font-bold mb-4 text-slate-200">Privacy Policy</h2>
+ <div class="space-y-4">
+  <p class="text-sm text-slate-300">Last Updated: January 2026</p>
+  <p class="text-slate-300">
+   At Hill Walking Adventures, we value your privacy. We only collect the
+   information you provide via our contact form (Name, Email, Message) to
+   respond to your inquiries.
+  </p>
+  <h3 class="text-2xl font-bold text-slate-200">Data Protection</h3>
+  <p class="text-slate-300">
+   We do not sell or share your personal data with third parties. Your
+   information is stored securely and only kept as long as necessary to resolve
+   your request.
+  </p>
+  <h3 class="text-2xl font-bold text-slate-200">Cookies</h3>
+  <p class="text-slate-300">
+   This site uses minimal cookies essential for site functionality and basic
+   analytics.
+  </p>
+ </div>
+</div>
+</div> <button
+ id="back-to-top"
+ onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+ class="fixed bottom-8 right-8 w-14 h-14 bg-white dark:bg-gray-800 rounded-full shadow-2xl flex items-center justify-center invisible opacity-0 transition-all duration-500 z-50 hide"
+>
+ <svg width="50" height="50">
+  <circle
+   cx="25"
+   cy="25"
+   r="22"
+   stroke="currentColor"
+   class="text-brand"
+   stroke-width="3"
+   fill="transparent"
+  />
+  <circle
+   id="progress-ring"
+   cx="25"
+   cy="25"
+   r="22"
+   stroke="currentColor"
+   class="text-gray-400"
+   stroke-width="3"
+   fill="transparent"
+   stroke-dasharray="138.2"
+   stroke-dashoffset="138.2"
+  />
+ </svg>
+ <span class="absolute text-brand font-bold text-xl">↑</span>
+</button>
+  <script type="module" src="/src/scripts/main.js"></script>
+   <script type="module" src="/src/scripts/nav-link.js"></script>
+ </body>
+</html>

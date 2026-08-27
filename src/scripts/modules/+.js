@@ -1,0 +1,5 @@
+import './dark-mode.js'
+import './modals-form.js'
+import './newsletter-comments.js'
+import './progress-backtop.js'
+import './slide-menu.js'

@@ -1,0 +1,80 @@
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Blog</title>
+  <link rel="stylesheet" href="/src/styles/main.css" />
+ </head>
+ <body class="antialiased">
+  <div id="top-progress-container" class="fixed top-0 left-0 w-full h-1 z-2000">
+   <div id="top-progress-bar" class="h-full bg-brand w-0"></div>
+  </div>
+  <header
+   class="hero-parallax relative h-[60vh] min-h-125 flex items-end justify-center py-8 text-white overflow-hidden shadow-md"
+   style="--bg-url: url('/src/assets/images/india-header.jpg');"
+  >
+   <!-- Background Layer (Parallaxed) -->
+   <div
+    class="parallax-bg absolute inset-0 -z-10 bg-cover bg-center bg-no-repeat pointer-events-none"
+   ></div>
+
+   <!-- Content Layer (Parallax Fade/Translate) -->
+   <div class="parallax-content relative z-10 max-w-4xl mx-auto px-4 pb-10">
+    <h1 class="text-h1-fluid font-extrabold tracking-tight mb-4 leading-tight">
+     Cycling India and Other Adventures
+    </h1>
+    <p class="text-lead-fluid mb-4 text-slate-100 font-medium">
+     A
+     <strong>4,000</strong>
+     mile (<strong>6,437</strong>
+     km) cycle ride around
+     <strong>India</strong>
+     taking in the
+     <strong>West Coast</strong>, the
+     <strong>Munaar mountains</strong>, the
+     <strong>East Coast</strong>
+     and the
+     <strong>Siddhartha Highway, (Nepal)</strong>
+     ending in
+     <strong>Pokhara, (Nepal)</strong>.
+    </p>
+   </div>
+  </header>
+  <main class="max-w-4xl mx-auto py-12 px-4">
+    <section class="mt-6 mb-20 border-b border-slate-200 pb-10">
+    <p class="text-lead-fluid leading-relaxed">Starting in <strong>Delhi</strong>, cycling to <strong>Agra</strong> (<strong><em>Taj Mahal</em></strong>), then down to <strong>Sawai Madhapur</strong> (<strong><em>Ranthambore National Park</em></strong>), and ending the northern section in <strong>Kota</strong>. From there I took the train to <strong>Mumbai</strong> and cycled to <strong>Goa</strong> following the mountainous but scenic <em>west coast</em>. From <strong>Goa</strong> I continued down the mostly flat and easy pedaling <em>west coast</em> to <strong>Vakala</strong>. From <strong>Vakala</strong> I turned towards the mountains to <strong>Munnar</strong> and from there heading east to <strong>Madurai,</strong> taking a bus from <strong>Madurai</strong> to <strong>Chennai</strong> and then cycling down to <strong>Pondicherry</strong>. From <strong>Pondicherry</strong> I cycled the surprisingly quite and <em>easy pedaling</em> <em>east coast</em> to <strong>Puri</strong> and <strong>Bhubaneshwar,</strong> from here taking the train to <strong>Varanasi.</strong> After recovering the <em>lost cycle</em> from the train journey I cycled the short distance to <strong>Nepal</strong> and then cycled the <em>Himalayan foothills</em> ending my cycle ride in <strong>Pokhara</strong>.
+     </p>
+
+    <img
+     src="/src/assets/images/india-map.png"
+     alt="Delhi to Agra - Lost in India"
+     class="w-2xl mx-auto my-10 rounded-lg shadow-sm"
+    />
+   <p class="text-lead-fluid leading-relaxed">Read about the <em>easy</em> and <em>hard</em> cycling, the time I got <em>lost</em>, the time I travelled <em>second class</em> on the train (<em>something you only do once</em>), the wonderful <strong>Goa.</strong> The loneliness when off the <em>tourist track</em>, the <em>people</em>, their way of <em>life</em> and their <em>culture.</em> The <em>problems</em> I had with the bicycle and trains.</p>
+     </section>
+
+   <!-- Tag Filter Bar -->
+   <section class="mb-8">
+    <div id="tag-filters" class="flex flex-wrap gap-2">
+     <button
+      data-tag="all"
+      class="tag-btn bg-slate-900 text-white px-3 py-1.5 rounded-full text-sm font-medium transition"
+     >
+      All Posts
+     </button>
+    </div>
+   </section>
+
+   <!-- Posts Grid -->
+   <section>
+    <div id="posts-grid" class="grid gap-6 md:grid-cols-2">
+     <!-- Rendered dynamically via JavaScript -->
+    </div>
+   </section>
+  </main>
+  {{> front-footer }} {{> backtop }}
+  <script type="module" src="/src/scripts/gallery.js"></script>
+   <script type="module" src="/src/scripts/main.js"></script>
+
+ </body>
+</html>

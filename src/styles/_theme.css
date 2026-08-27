@@ -1,0 +1,23 @@
+/* Optional: Define custom theme variables, fonts, or colors directly in CSS */
+@theme {
+ --font-sans: "Montserrat", sans-serif;
+ --font-code: "Source Code Pro", monospace;
+ --color-brand: #3b82f6;
+ --bg-color: var(--color-slate-50);
+ --text-color: var(--color-slate-800);
+ --link: var(--color-green-600);
+ --hover: var(--color-green-900);
+
+ /* default fluid fonts */
+ /* Utilizing a clean formula: clamp(min, base + scaling, max) */
+ --text-secondary-fluid: clamp(0.8rem, 1.0547rem + -0.0796vw, 1rem);
+ --text-lead-fluid: clamp(1.125rem, 1.04rem + 0.42vw, 1.375rem);
+ --text-h1-fluid: clamp(2.5rem, 2.2rem + 1.5vw, 3.5rem);
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.dark {
+ --bg-color: var(--color-neutral-900);
+ --text-color: var(--color-slate-100);
+}

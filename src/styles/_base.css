@@ -1,0 +1,57 @@
+@layer base {
+ html {
+  scroll-behavior: smooth;
+ }
+ body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  font-family: var(--font-sans);
+ }
+ a,
+ .up {
+  font-weight: 500;
+  transition: all 0.2s ease;
+  display: inline-block;
+  color: var(--link);
+
+  &:hover {
+   transform: translateY(-0.19rem);
+   color: var(--hover);
+  }
+ }
+ button,
+ [type="button"],
+ [type="submit"],
+ .btn-primary {
+  @apply cursor-pointer;
+ }
+ h2,
+ h3,
+ h4 {
+  @apply tracking-tight font-bold mb-3;
+ }
+ pre,
+ code {
+  font-family: var(--font-code);
+ }
+}
+
+@layer components {
+ .btn-primary {
+  @apply inline-flex items-center justify-center rounded-lg font-semibold
+           transition-all duration-200 transform active:scale-95;
+  background-color: var(--link);
+  color: white;
+  min-height: 2rem;
+ }
+
+ .btn-primary:hover {
+  background-color: var(--hover);
+  @apply shadow-lg;
+ }
+
+ .input-field {
+  @apply w-full border border-slate-400 rounded-md px-4 py-2 mb-3 text-slate-500
+           focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all;
+ }
+}

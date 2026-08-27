@@ -1,0 +1,56 @@
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{title}}</title>
+  <script>
+    /* 1. This script runs IMMEDIATELY */
+    const theme = localStorage.getItem('theme') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+    if (theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    }
+  </script>
+  <link rel="stylesheet" href="/src/styles/main.css" />
+ </head>
+ <body class="antialiased">
+  <div id="top-progress-container" class="fixed top-0 left-0 w-full h-1 z-2000">
+   <div id="top-progress-bar" class="h-full bg-brand w-0"></div>
+  </div>
+  {{> slide-menu }}
+  <header
+  class="hero-parallax relative h-[60vh] min-h-125 flex items-end justify-center py-8 text-white overflow-hidden shadow-md"
+  style="--bg-url: url('{{image}}');"
+>
+  <!-- Background Layer (Parallaxed) -->
+  <div class="parallax-bg absolute inset-0 -z-10 bg-cover bg-center bg-no-repeat pointer-events-none"></div>
+
+  <!-- Content Layer (Parallax Fade/Translate) -->
+  <div class="parallax-content relative z-10 max-w-4xl mx-auto px-4 pb-10">
+    <h1 class="text-h1-fluid font-extrabold tracking-tight mb-4 leading-tight">
+      {{title}}
+    </h1>
+    <h4 class="text-lead-fluid mb-4 text-slate-100 font-medium">
+      {{excerpt}}
+    </h4>
+    <time class="text-secondary-fluid text-slate-200 font-medium">
+      {{formattedDate}}
+    </time>
+  </div>
+</header>
+
+  <main class="max-w-4xl mx-auto px-4 py-6 prose space-y-3">
+   {{{body}}}
+   <hr>
+   <nav class="mx-4 pb-10 border-b-slate-400 border-b-[1px]">
+   <a href="/">← Back Home</a>
+  </nav>
+  </main>
+
+  {{> comments }}
+ {{> footer }} {{> backtop }}
+  <script type="module" src="/src/scripts/main.js"></script>
+   <script type="module" src="/src/scripts/nav-link.js"></script>
+ </body>
+</html>

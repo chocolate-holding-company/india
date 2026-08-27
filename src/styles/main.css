@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:wght@400&display=swap");
+
+@import "tailwindcss";
+@import "_theme";
+@import "_base";
+/* @plugin "@tailwindcss/typography"; */
+
+/* When the root IS NOT dark (Light Mode) */
+#themeToggle .sun-icon {
+ opacity: 0;
+ transform: translateY(20px) rotate(90deg);
+}
+#themeToggle .moon-icon {
+ opacity: 1;
+ transform: translateY(0) rotate(0deg);
+}
+
+/* When the root IS dark (Dark Mode) */
+.dark #themeToggle .sun-icon {
+ opacity: 1;
+ transform: translateY(0) rotate(0deg);
+}
+.dark #themeToggle .moon-icon {
+ opacity: 0;
+ transform: translateY(-20px) rotate(-90deg);
+}
+
+@layer utilities {
+ .prose {
+  p {
+   font-size: clamp(1rem, 0.96rem + 0.21vw, 1.125rem);
+   line-height: 1.7;
+   margin-bottom: 1.3rem;
+  }
+  p:has(+ ul) {
+   margin-bottom: 0.5rem;
+  }
+  h4 {
+   font-size: clamp(1.125rem, 1.04rem + 0.42vw, 1.375rem);
+   line-height: 1.4;
+   margin-top: 2.5rem;
+  }
+  h3 {
+   font-size: clamp(1.375rem, 1.25rem + 0.63vw, 1.75rem);
+   line-height: 1.3;
+   margin-top: 2.5rem;
+  }
+  h2 {
+   font-size: clamp(1.75rem, 1.5rem + 1.25vw, 2.5rem);
+   line-height: 1.2;
+   margin-top: 2.5rem;
+  }
+
+  ul,
+  ol {
+   @apply list-outside text-secondary-fluid pl-4;
+  }
+
+  ul {
+   @apply list-disc;
+  }
+  ol {
+   @apply list-decimal;
+  }
+  li {
+   @apply mb-1;
+  }
+
+  ul > li::marker,
+  ol > li::marker {
+   color: var(--color-red-600, red);
+   font-size: 1em;
+  }
+  hr {
+   @apply my-10 mx-4 border-slate-400 h-[1px] relative overflow-visible;
+
+   &::after {
+    @apply content-['oooo'] absolute -top-[10px] left-[47%] text-[12px]
+           text-slate-400 bg-[var(--bg-color)] shadow-[var(--bg-color)_0_0_0_8px];
+   }
+  }
+  table {
+   @apply my-8 bg-transparent border-collapse;
+
+   & caption {
+    @apply text-lg text-left pb-2 font-bold;
+    caption-side: top;
+   }
+
+   & th,
+   & td {
+    @apply p-3 align-top border-t border-slate-400 text-base leading-relaxed text-left transition-colors duration-150;
+   }
+
+   & th {
+    @apply font-bold;
+   }
+   & td {
+    @apply font-normal whitespace-nowrap;
+   }
+
+   /* Hover effect using native CSS nesting */
+   @media (hover: hover) {
+    & tbody tr:hover td {
+     @apply bg-slate-600;
+    }
+   }
+  }
+  .post-hero {
+   @apply mt-10 md:flex md:flex-row-reverse gap-6;
+   & img {
+    @apply sm:max-w-md mx-auto m-0 mb-10 md:mb-0 rounded-lg shadow-sm;
+   }
+   & p {
+    @apply text-lead-fluid leading-relaxed mt-3;
+   }
+  }
+ }
+}
+
+/* parallax and header */
+/* Base styles & background image injection */
+.hero-parallax {
+ /* Set perspective container for sub-layer transform calculations */
+ view-timeline-name: --hero-scroll;
+ view-timeline-axis: block;
+}
+
+.parallax-bg {
+ /* Overlay gradient + dynamic background image variable */
+ background-image:
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+  var(--bg-url);
+ /* Extra vertical scaling to prevent background clipping during translate */
+ height: 120%;
+ top: 0;
+
+ /* Subtle background parallax: shifts down slower than scroll */
+ animation: parallax-bg-anim linear both;
+ animation-timeline: --hero-scroll;
+ animation-range: exit 0% exit 100%;
+}
+
+.parallax-content {
+ /* Subtle text parallax: moves up slightly faster and fades out */
+ animation: parallax-text-anim linear both;
+ animation-timeline: --hero-scroll;
+ animation-range: exit 0% exit 80%;
+}
+
+@keyframes parallax-bg-anim {
+ to {
+  transform: translateY(25%);
+ }
+}
+
+@keyframes parallax-text-anim {
+ to {
+  transform: translateY(-30px);
+  opacity: 0;
+ }
+}
+/* admin page */
+#admin-login,
+#admin-panel {
+ transition: opacity 0.15s ease-in-out;
+}
