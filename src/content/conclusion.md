@@ -3,7 +3,8 @@ title: "In Conclusion"
 date: "2026-09-25"
 slug: "conclusion"
 excerpt: "Cycle problems encountered while touring India included brake and pannier problems. The bike performed well but had a long-standing problem with brake discs."
-image: "/src/assets/images/in-conclusion.png"
+image: "/src/assets/images/in-conclusion.webp"
+thumb: "/src/assets/images/in-conclusion-two.webp"
 tags: ["india", "regrets", "learning"]
 ---
 

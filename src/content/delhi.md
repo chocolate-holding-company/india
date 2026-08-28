@@ -3,7 +3,8 @@ title: "Navigating Delhi by Cycle"
 date: "2026-07-22"
 slug: "delhi"
 excerpt: "Delhi an introduction to incredible India, the famous roads, budget hotels, the first real curry, the heat and ooh! that smell, what a culture shock."
-image: "https://images.pexels.com/photos/20083843/pexels-photo-20083843.jpeg?auto=compress&cs=tinysrgb&w=800"
+image: "/src/assets/images/delhi-header.webp"
+thumb: "/src/assets/images/delhi-header.webp"
 tags: ["india", "north", "roads"]
 ---
 
@@ -95,7 +96,7 @@ I didn’t take to Delhi and was glad to leave after just two days, the place is
 
 ---
 
-![](/src/assets/images/delhi-info-graphic.png)
+![](/src/assets/images/delhi-info-graphic.webp)
 
 **If I went again:**
 

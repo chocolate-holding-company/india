@@ -87,24 +87,23 @@ function renderPosts() {
  gridContainer.innerHTML = filtered
   .map(
    (post) => `
-    <article class="p-6 bg-white rounded-xl border border-slate-200 shadow-sm flex flex-col justify-between">
-      <div>
-        <div class="flex items-center justify-between">
+    <article class="bg-white w-full rounded-xl border border-slate-200 flex flex-col justify-between overflow-hidden animate-card shadow-sm hover:shadow-md transition-shadow">
+<div class="h-60 overflow-hidden">
+  <img src="${post.thumb}" alt="${post.title}" class="w-full h-full object-cover">
+</div>
+      <div class="p-4 mb-2">
+
+
+        <h3 class="text-xl font-bold mt-2 mb-2 text-slate-900 hover:text-blue-600">
+          <a href="${post.url}" class="text-blue-600">${post.title}</a>
+        </h3>
+        ${post.excerpt ? `<p class="text-slate-600 text-sm leading-relaxed">${post.excerpt}</p>` : ""}
+        <div class="flex items-center justify-between border-t-slate-300 border-t-[1px] pt-3 mt-2">
           <time class="text-xs font-semibold text-slate-400 uppercase tracking-wider">${formatDate(post.date)}</time>
           <div class="flex gap-1">
             ${(post.tags || []).map((t) => `<span class="text-xs text-slate-500 bg-slate-100 px-2 py-0.5 rounded">#${t}</span>`).join("")}
           </div>
         </div>
-        <h3 class="text-xl font-bold mt-2 text-slate-900 hover:text-blue-600">
-          <a href="${post.url}">${post.title}</a>
-        </h3>
-        ${post.excerpt ? `<p class="text-slate-600 mt-2 text-sm leading-relaxed">${post.excerpt}</p>` : ""}
-      </div>
-
-      <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
-        <a href="${post.url}" class="text-sm font-semibold text-blue-600 hover:underline">
-          Read post →
-        </a>
       </div>
     </article>
   `,

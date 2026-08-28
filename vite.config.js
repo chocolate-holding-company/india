@@ -61,6 +61,8 @@ export default defineConfig({
   }),
   tailwindcss(),
   ViteImageOptimizer({
+   png: { quality: 80 },
+   jpeg: { quality: 80 },
    webp: { quality: 80 },
   }),
  ],

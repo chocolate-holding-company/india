@@ -214,7 +214,7 @@ export function initNewsComments() {
    // Apply a shaded box and border for replies (depth > 0)
    const wrapperClass = isChild
     ? `border border-red-100 bg-red-50/30 rounded-xl p-4 mt-2 mb-2`
-    : `border-b border-gray-200 pb-6 mb-6 last:border-0`;
+    : `border-b border-gray-200 pb-6 last:border-0`;
 
    return `
     <div class="${wrapperClass} ${indent}" data-comment-id="${c.id}">

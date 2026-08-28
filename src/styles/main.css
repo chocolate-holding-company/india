@@ -24,100 +24,6 @@
  opacity: 0;
  transform: translateY(-20px) rotate(-90deg);
 }
-
-@layer utilities {
- .prose {
-  p {
-   font-size: clamp(1rem, 0.96rem + 0.21vw, 1.125rem);
-   line-height: 1.7;
-   margin-bottom: 1.3rem;
-  }
-  p:has(+ ul) {
-   margin-bottom: 0.5rem;
-  }
-  h4 {
-   font-size: clamp(1.125rem, 1.04rem + 0.42vw, 1.375rem);
-   line-height: 1.4;
-   margin-top: 2.5rem;
-  }
-  h3 {
-   font-size: clamp(1.375rem, 1.25rem + 0.63vw, 1.75rem);
-   line-height: 1.3;
-   margin-top: 2.5rem;
-  }
-  h2 {
-   font-size: clamp(1.75rem, 1.5rem + 1.25vw, 2.5rem);
-   line-height: 1.2;
-   margin-top: 2.5rem;
-  }
-
-  ul,
-  ol {
-   @apply list-outside text-secondary-fluid pl-4;
-  }
-
-  ul {
-   @apply list-disc;
-  }
-  ol {
-   @apply list-decimal;
-  }
-  li {
-   @apply mb-1;
-  }
-
-  ul > li::marker,
-  ol > li::marker {
-   color: var(--color-red-600, red);
-   font-size: 1em;
-  }
-  hr {
-   @apply my-10 mx-4 border-slate-400 h-[1px] relative overflow-visible;
-
-   &::after {
-    @apply content-['oooo'] absolute -top-[10px] left-[47%] text-[12px]
-           text-slate-400 bg-[var(--bg-color)] shadow-[var(--bg-color)_0_0_0_8px];
-   }
-  }
-  table {
-   @apply my-8 bg-transparent border-collapse;
-
-   & caption {
-    @apply text-lg text-left pb-2 font-bold;
-    caption-side: top;
-   }
-
-   & th,
-   & td {
-    @apply p-3 align-top border-t border-slate-400 text-base leading-relaxed text-left transition-colors duration-150;
-   }
-
-   & th {
-    @apply font-bold;
-   }
-   & td {
-    @apply font-normal whitespace-nowrap;
-   }
-
-   /* Hover effect using native CSS nesting */
-   @media (hover: hover) {
-    & tbody tr:hover td {
-     @apply bg-slate-600;
-    }
-   }
-  }
-  .post-hero {
-   @apply mt-10 md:flex md:flex-row-reverse gap-6;
-   & img {
-    @apply sm:max-w-md mx-auto m-0 mb-10 md:mb-0 rounded-lg shadow-sm;
-   }
-   & p {
-    @apply text-lead-fluid leading-relaxed mt-3;
-   }
-  }
- }
-}
-
 /* parallax and header */
 /* Base styles & background image injection */
 .hero-parallax {
@@ -160,6 +66,31 @@
   opacity: 0;
  }
 }
+.animate-card {
+ opacity: 0; /* Hidden by default */
+ animation: fadeInUp 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+ transition:
+  background-color 0.5s ease,
+  border-color 0.5s ease,
+  transform 0.2s ease;
+}
+@keyframes fadeInUp {
+ from {
+  opacity: 0;
+  transform: translateY(15px);
+ }
+ to {
+  opacity: 1;
+  transform: translateY(0);
+ }
+}
+
+@media (max-width: 600px) {
+ .hide {
+  visibility: hidden !important;
+ }
+}
+
 /* admin page */
 #admin-login,
 #admin-panel {

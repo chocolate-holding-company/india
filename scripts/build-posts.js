@@ -13,7 +13,7 @@ const marked = new Marked({
     return `
           <figure class="my-8">
             <img src="${href}" alt="${text}" ${title ? `title="${title}"` : ""} class="w-full rounded-lg shadow-sm" />
-            <figcaption class="mt-2 text-center text-sm text-var(--text-color) italic">${text}</figcaption>
+            <figcaption class="mt-3 text-center text-sm text-var(--text-color) italic">${text}</figcaption>
           </figure>
         `.trim();
    }
@@ -73,18 +73,6 @@ const marked = new Marked({
  },
 });
 
-// const markdownContent = `...`;
-// const tokens = marked.lexer(markdownContent);
-
-// Find list tokens and parse custom column syntax (e.g., separated by '|')
-// const listItems = tokens
-//  .filter((token) => token.type === "list")
-//  .flatMap((list) => list.items)
-//  .map((item) => {
-//   const [name, type, desc] = item.text.split("|").map((s) => s.trim());
-//   return { name, type, desc };
-//  });
-
 // Register Handlebars Partials dynamically
 async function registerPartials() {
  const partialFiles = await glob("src/partials/*.hbs");
@@ -106,6 +94,21 @@ function formatDate(dateString) {
  });
 }
 
+async function prepareThumb(thumb) {
+ if (!thumb || !thumb.startsWith("/src/assets/images/")) return thumb;
+
+ const sourcePath = path.resolve(process.cwd(), thumb.slice(1));
+ const filename = path.basename(sourcePath);
+ const destinationPath = path.resolve(process.cwd(), "public/assets", filename);
+
+ if (await fs.pathExists(sourcePath)) {
+  await fs.copy(sourcePath, destinationPath);
+  return `/assets/${filename}`;
+ }
+
+ return thumb;
+}
+
 async function generatePosts() {
  // Register partials first
  await registerPartials();
@@ -123,11 +126,17 @@ async function generatePosts() {
 
   const formattedDate = formatDate(frontmatter.date);
   const description = frontmatter.description || frontmatter.excerpt || "";
+  const thumb = await prepareThumb(
+   frontmatter.thumb ||
+    frontmatter.image ||
+    "/src/assets/images/india-header-small.webp",
+  );
 
   const finalHtml = template({
    ...frontmatter,
    description,
-   image: frontmatter.image || "/src/assets/images/india-header.jpg",
+   image: frontmatter.image,
+   thumb,
    formattedDate,
    body: htmlContent,
   });
@@ -140,7 +149,8 @@ async function generatePosts() {
    formattedDate,
    slug: frontmatter.slug,
    excerpt: description,
-   image: frontmatter.image,
+   image: frontmatter.image || "/src/assets/images/india-header.webp",
+   thumb,
    tags: frontmatter.tags || [],
    url: `/${frontmatter.slug}/`,
   });
