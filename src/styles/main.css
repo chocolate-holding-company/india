@@ -66,6 +66,8 @@
   opacity: 0;
  }
 }
+
+/* post card */
 .animate-card {
  opacity: 0; /* Hidden by default */
  animation: fadeInUp 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;

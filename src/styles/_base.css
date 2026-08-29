@@ -120,7 +120,7 @@ code {
  ul,
  ol {
   list-style-position: outside;
-  color: var(--secondary-fluid);
+  font-size: var(--secondary-fluid);
   padding-left: 1rem;
   margin-bottom: 1.5rem;
  }
@@ -216,7 +216,7 @@ code {
 
   @media (hover: hover) {
    tbody tr:hover td {
-    background-color: var(--color-slate-200, #e2e8f0);
+    background-color: var(--table-hover);
    }
   }
  }

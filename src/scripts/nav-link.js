@@ -60,7 +60,7 @@ function renderMenu(data, container) {
                 <h3 class="text-blue-500 uppercase tracking-[0.3em] text-sm font-bold mb-4 opacity-60">
                     ${group.cat}
                 </h3>
-                <ul class="space-y-6">`;
+                <ul class="space-y-4 md:space-y-6">`;
 
   // Loop through the links in this category
   group.links.forEach((item) => {
