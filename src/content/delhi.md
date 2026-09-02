@@ -5,94 +5,67 @@ slug: "delhi"
 excerpt: "Delhi an introduction to incredible India, the famous roads, budget hotels, the first real curry, the heat and ooh! that smell, what a culture shock."
 image: "/src/assets/images/delhi-header.webp"
 thumb: "/src/assets/images/delhi-header.webp"
-tags: ["india", "north", "roads"]
+tags: ["india", "delhi"]
+draft: false
 ---
 
-## London
+## The London Box Battle
 
-After acquiring a bike box from a city centre bike shop and although it was a little on the large side, I easily transported the empty box by tube, back to the youth hostel where I was staying. When it was time to leave for the airport, the bike box, _with bike nicely packed inside_, and the two loose panniers proved difficult to carry, and I knew I’d have problems transporting them to and on the tube. I gave it a try but after a hundred yards I gave up and decided to call a taxi. It worked out expensive.
+In theory, moving a bike is easy; in real life, it is a nightmare. My airline, Air India, said my bike had to be packed inside a giant box. Carrying this massive empty cardboard box onto the London tube was fine, but once the heavy bike and two big bags were stuffed inside, I couldn't budge it. After struggling for just a hundred yards, my arms turned to jelly, and I had to pay for an expensive taxi. The only good news was that everything was under their 40kg limit.
 
-> I had to use the cycle box, it was a requirement of the airline, Air India, I would have preferred to have cycled to the airport, it would have been a lot cheaper and easier. In the past some airlines only required you to take off the pedals and turn the handlebars in-line with the frame. This was much easier but not sure if any airlines allow this now, I think they all insist the cycles are boxed or bagged (special cycle bags).
+## Stepping into the Chaos
 
-> [!NOTE]
-> I had to use the cycle box, it was a requirement of the airline, Air India, I would have preferred to have cycled to the airport, it would have been a lot cheaper and easier. In the past some airlines only required you to take off the pedals and turn the handlebars in-line with the frame. This was much easier but not sure if any airlines allow this now, I think they all insist the cycles are boxed or bagged (special cycle bags).
+Delhi airport actually looked quite modern, with escalators and decent shops. But first, I had to get local cash. Be careful here: the money-changers count bills so incredibly fast it looks like a magic trick, and you suddenly end up holding a huge, confusing stack of paper.
 
-> [!INFO]
-> On checking in, panniers and bike came within the 40kg luggage allowance so didn’t incur any extra charge.
+The second I walked outside, the air-conditioned peace was gone. It was boiling hot, and the air smelled exactly like a rubbish dump on a hot summer day.
 
-> [!TIP]
-> Keep water purification tablets accessible in your day pack during the route.
+## Building a Bike with a Silent Fan Club
 
-> [!WARNING]
-> Make sure you heed this warning or what will happen will a do you!.
+I should have left the bike in its box and taken a taxi to a hotel. Instead, I decided to build it right there on a patch of concrete by the taxi stand. It only took a few minutes to fix the handlebars and screw on the pedals, but that was enough to attract a silent, deeply interested audience of twelve local guys. Once I tightened the last screw, they got bored and walked off. A nice taxi driver then got a cleaner to throw away my massive box, which the cleaner did by simply leaning it against the nearest wall.
 
-## Delhi Airport
+## The Horn Highway
 
-I was surprised to find Delhi airport so modern, moving escalators and decent decor. Although the shops and outlets scattered around the great halls were not on par with London, they were impressive and inviting.
+I strapped my bags on and hopped onto the main highway to the city. They drive on the left here, which was nice, but that was the only normal thing. The dust on the 17-kilometer ride was so thick and choking that breathing felt like smoking 20 cigarettes an hour.
 
-I waited for my luggage to come down the conveyor belt and after a while the bike came down followed by the panniers, everything looked intact. I loaded the bike and panniers onto a trolley and changed some money (_careful when changing money, they count quickly and there are a lot of notes_). I then wheeled the trolley to the door aiming for what looked like a small taxi area to assemble the bike. The heat hit as soon as the doors opened, it was scorching and the smell, _it smelt like a landfill on a hot day_, a really awful smell of decaying waste.
+Traffic rules here don't care about who got there first; they only care about who makes the most noise. The rule is simple: the bigger your vehicle and the louder your horn, the more you own the road. As a cyclist with no engine, I was at the very bottom of the food chain, constantly pushed off the road by rusty old trucks.
 
-My first glimpse of India was a little shocking (_even though I’d been warned about the culture shock_), at this point I should have left the bike in the box and got a taxi to a hotel. But I opened the box and removed and assemble the bike, which only consisted of attaching the pedals and straightening the handlebars, about a dozen people gathered to see what I was doing.
-
-The bike was soon assembled, and the crowd began to lose interest and disperse, mainly back to their taxis. One of the taxi drivers organised the removal of the box by calling over a cleaner and telling him to _remove the box_, he did so by leaving it against the nearest wall.
-
-With the bike assembled and the panniers secured I headed for the distant muffled roar of the _main highway into Delhi_.
-
-## Those Famous Indian Roads
-
-The sun was hot and the air thick with dust, _choking dust_. I set off ready to take on the _famous Indian roads_ I’d heard so much about. Thankfully, they drove on the left, I didn’t want to have to get used to the crazy traffic _and cycle on the right_. After leaving the comparatively quiet roads of the airport I joined the traffic on the major road into Delhi.
-
-_They are crazy drivers_, everything I’d heard about Indian roads was true, they drive with their _horn’s_, the sound was deafening and aggressive. The bigger the truck and louder the horn gets you ahead, every other vehicle gives way and I, a _mere cyclist_ and being way down the hierarchy, found myself regularly driven off the road.
-
-Delhi was _17km_, the dust in the air was over-powering and after 5 minutes I was _coughing and spluttering_, it felt like I was smoking 20 cigarettes an hour. The landscape was scruffy and smelly and the roads looked so un-organised it was unbelievable. The smell of the sewers and rubbish from the side of the road was sometimes overpowering.
-
-The vehicles were old and battered, _especially the trucks_, and I was probably the only engineless vehicle on the road and attracting a lot of attention. I soon found out that there were very few _western cycles_ in India. The flow of traffic was slow but intense, bumper to bumper as though they were _pushing each other_ into Delhi.
-
-I missed my turning and ended up circling Delhi (_at least it seemed like it_), looking for a hotel but there were none. Different people back in the UK told me that hotels in India were _ten a penny_, I couldn’t find one and it was getting dark.
-
-With all this riding around the busy streets of Delhi I began to pick up some of the rules of the road. The main weapon needed was a _loud horn_. You then have to push your way through the traffic, edging, pushing into any available space. It seems you are allowed to _cut-up_ as many other road users as it takes to get ahead, yet I never witnessed any _road-rage_. At red lights you can turn left but you must wait to go straight on or when turning right (_as you’d expect, but being able to turn left was useful_). Drivers use their horns to show intention, they blast their horns signalling _I‘m coming through so get out of the way_.
+In Delhi, a honk doesn't mean "I hate you"—it just translates to: _"I am taking this space, so please move over"_. Amazingly, even though drivers cut each other off constantly, nobody gets angry. Left turns on red lights are super handy, but going straight means waiting in a giant, squished pack of cars that literally nudge each other forward.
 
 ![Crazy Indian Roads](/src/assets/images/delhi-roads.jpg)
 
-## My First Hotel
+## Finding a Bed (and a Scary Fan)
 
-I eventually found a hotel _10 km_ from the centre, within a business park and what a dump, it cost _£40.00_ a night with breakfast, which consisted of _toast_ and _jam_ with _coffee_. I thought they’d overcharged me being a tourist, but they had wi-fi access, so I looked up the hotel on the internet and the found the price was right.
+People back in the UK told me finding a hotel in Delhi would be incredibly easy, but with no road signs and a wrong turn, I spent hours lost in the dark. I finally found a room 10km away for £40 a night.
 
-The room had too much furniture, but nothing matched. There was a wardrobe, set of drawers, a table and chairs placed against the walls where there was space. The walls were heavily plastered and painted white and starting to look a little grubby. The double bed was hard with bed sheets that looked heavily starched and uninviting with a grubby pillow. A couple of paintings hung on the walls of different Hindu gods. The whole room looked shabby but I was to find this was a typical budget hotel room in India.
+The room was a hilarious mess of random furniture squeezed wherever it would fit. The walls were a bit dirty, the bed was rock-hard, and the sheets were stiff and uninviting. To make it better, a giant, sketchy ceiling fan wobbled loudly above me all night, making me wonder if it would fall off and decapitate me.
 
-The bathroom, I also was to find, _was a typical India bathroom_. The big, modern but plain sink wasn’t fixed down so you had to be careful if you leaned on it for support. The sink had one working tap which happened to be the cold one. The toilet was a western pan with a flusher which didn’t work so you had to flush using the medium sized bucket provided. There was a cold tap at knee height which I was to find, was the most important tap. The tap along with the supplied bucket is used to flush the toilet and to aid you to have a bucket shower as the official shower’s taps rarely worked. The bathroom had a tiled floor much like a wet room with the non-working shower at the end with a drain but no shower base. Turning on the shower taps produced no water but the knee high tap was nearby. Showering consisted of filling the bucket with warmish water, as I believe the water tank was located on the roof and warmed by solar panels. Even though the room temperature was around 30 C, pouring the bucket of water over your head was little shocking, _it took 3 or 4 buckets before I got used to it._
+The bathroom was basically a wet room. The sink looked nice, but it wasn't actually attached to the wall, so leaning on it was a dangerous gamble. There was only one working tap (cold water, of course). The toilet flush was broken, so I had to flush it manually with a bucket of water.
 
-A big ceiling fan cooled the bedroom that looked a little insecure. I used to lie on the hotel beds thinking would one ever fly off, they were on all the time including through the night. The first night I managed to sleep under one blanket, but it felt grubby and hard. I soon purchased a sarong and stopped using the hotel bedding but in the early hours of the morning I always woke up chilly. It became a early morning ritual to turn off the fan and then to see how long I could sleep before it got too hot. I was getting up around 7am if cycling or between 8 and 9am on rest days.
-
-> Most of the hotels I used were on the cheaper side, paying as little as £4 for a room in some cases and some even cheaper _these were basic, just a room with a toilet and tap_. Some hotels were good value and some you got what you paid for. India does offer many top star hotels with quality service and I did sample them on one or two occasions when hotels were scarce, usually off the tourist track. I always found these hotels clean and comfortable and nearly always had air conditioning, ( _I could never get on with air conditioning and always ended up turning it off_ ).
+To shower, you fill a bucket with solar-heated water from the roof and pour it over your head. Even when it's 30°C outside, dumping a bucket of water over your head makes you gasp for air. If you are travelling on a budget, you can find rooms in India for just £4, but they are literally just a bare room with a toilet and a tap.
 
 ![Most Rooms are Basic but Cheap](/src/assets/images/delhi-room.jpg)
 
-## First Indian Curry
+## Dinner with the "Dingos"
 
-In the evening I decided to search out some food. The area seemed to lack any shops, _plenty of hotels_, some big hotels which would probably have had a restaurant but I decided to go for a walk and see If I could search out a restaurant.
+Hunting for food in the dark backstreets was pretty creepy. The empty streets were silent except for the scary barking of wild-looking street dogs that roam in loud packs.
 
-It was dark and the street lighting poor or _non-existent_ as I walked into the back streets. Everywhere looked the same I couldn’t tell one street from another so I had to be careful and try and remember some landmarks. The area, made up of small business units was quiet except for dogs barking which was a little unsettling as I couldn’t see them.
+I eventually found a small, glowing shack on some waste ground, surrounded by parked cars and snarling dogs. Ordering a chicken curry took some creative hand gestures. Indian food here is all about rich, delicious flavours rather than burning your mouth off with pure spice. As I waited under the suspicious stares of some local kids in their cars, the owner handed over my food and his card, saying, _"If you want food again, ring. We will deliver. It's not safe to walk out here"_.
 
-After what seemed like ages and not finding any signs of life, (_unusual for India_), I came across a bit of waste ground with a few cars parked up. In the centre was a scruffy hut that was lit up with dim lighting that looked brighter because of the lack of lighting in the immediate area. People were going in and out with what looked like _takeaway_ meals.
+I walked back to my room incredibly fast. Safely inside, I ate my chicken curry while watching English language movies. I have to say, that curry was absolutely amazing.
 
-There were many dogs around making a lot of noise and fighting with each other. _They looked half-wild_, I was to find out most dogs in India are half-wild and look more like _dingos_. They roam around in large packs, making a lot of noise, sometimes annoying when they stray near your hotel at night, _sleep becomes impossible_. The dogs never bother people, I only ever remember a dog barking aggressively at me once while touring and there are _many, many_ dogs.
+## The Sightseeing Hustle
 
-I went into the hut to order a _chicken curry_, I couldn’t read the menu so hoped the guy I spoke to could understand a little English. He did and asked _how spicy I wanted my curry_?, _in India people don’t seem to have hot curries_, they go more for taste. There were no seats inside so I waited outside watching the dogs continually fight each other for domination. Most of the customers watched me from their cars while eating and most of them were on the younger side, (_boy racers?_, I don't think so, the cars said _no_). I was drawing a lot of attention which started to feel a little uncomfortable. The guy came out with my food. His English was good, he gave me the food and a business card, saying “_If you want any food again, ring, we will deliver it_”, he carried on saying words to the effect of _its not safe to walk around this area_.
+On day two, I left the bike behind and took a three-wheeled tuk-tuk to see India Gate and Connaught Place. The driver immediately tried to take over my whole day, planning stops I didn't ask for, so I had to politely but firmly tell him no.
 
-The walk back to the hotel didn’t seem to take as long as the walk to the restaurant/hut, but there again it never does. Everywhere really does look similar, with the dim street lighting not helping.
+Walking around in the boiling heat quickly became exhausting. The monuments are cool, but you are constantly followed by people trying to sell you souvenirs or rickshaw rides. They are extremely persistent, but because there are so many of them, rides are super cheap.
 
-Back at the hotel I watched television (_lots of films in English on the Hobo channel_), while eating my first curry in India, and it was _excellent_.
+Every single inch of Delhi is filled with someone selling something, even if it's just a guy sitting on a blanket on the street selling tea. It's a crowded, hardworking city with lots of litter and heartbreaking poverty.
 
-![Lots of Dogs](/src/assets/images/delhi-dogs.jpg)
+![Lots of Dogs and Living on the Streets](/src/assets/images/delhi-dogs.jpg)
 
-## Day 2 in Delhi
+## The Verdict
 
-The next day I took a tuk- tuk up to _‘India Gate_’, and _Connaught Place_ (_CP_), this is the tourist area with plenty of shops and hotels. The tuk-tuk dropped me off at ‘_India Gate_’ he then said _‘I wait here for you and then I show you ‘President’s Palace’ and then I show you this and that_‘. They end up trying to plan your day, I decided I didn’t want him after seeing ’_India Gate_’ and reluctantly he left. I walked slowly around the area taking in the impressive landmarks. I’m not really a monument person and soon tire of walking around in uncomfortable heat taking photos that have been taken thousands of times before. I was constantly approached by souvenir salesmen selling cheap looking replicas of India Gate and other notable places in India. Everybody seems to want to sell you something, and they are determined, they never give up. Walking past shops and constantly being invited to look inside, the worst offenders seem to be the ‘_Rickshaw cycles_’. They will keep on at you relentlessly, trying to strike up a conversation with you, _be your friend_, they don’t give up easily. It’s impossible to escape them but the plus side is there is so many of them you can get around very cheaply.
-
-Cycling or walking it’s easy to get lost in Delhi because there are no signs and all the streets look the same, all busy and full of small shops and markets. Shopping is not as easy as back home, there are no superstores, you have to search out every item in small shops and then if you want you can haggle the price (_most of the time the price is so cheap it’s not worth haggling, tourists are always charged a few rupees extra_). Every bit of space is taken by somebody selling something, from a posh looking lock-up shop (_very few in India_) to a man sitting under a blanket on the kerb edge, with a kettle selling tea. They are prepared to sit there all day and night to earn a few rupees, (_you have to admire their perseverance, something you’d never find in the western countries_). The streets are strewn with litter and people sleeping and begging on the road edges. It’s sad to see but you have to ignore their pleading, held out hands because there’s just _too many of them_.
-
-I didn’t take to Delhi and was glad to leave after just two days, the place is too big with too many people. The constant hassling started to get annoying but it’s something you have to get used to, it’s a way of life in India. I was getting restless, I wanted to start cycling and explore this _simple and complicated_ place.
+Honestly, Delhi is too big, loud, and stressful to love in just two days, and I was glad to leave. Still, it leaves you with a strange urge to see more.
 
 ---
 
@@ -100,8 +73,8 @@ I didn’t take to Delhi and was glad to leave after just two days, the place is
 
 **If I went again:**
 
-- Research Delhi more.
-- Change money before you go, if you can, they count the money too quickly at the airport and there are lots of notes.
-- Get a taxi to the hotel, and find out the going rate from other tourists or books like the ‘Lonely Planet’ guide.
+- Research the city a lot more before arriving.
+- Change my money before landing to avoid the high-speed airport exchange.
+- Take an official airport taxi straight to the hotel.
 - Try to get a suitable street map of Delhi (_Google maps_)
 - Take ‘Lonely Planet’ guide (_a guide book is essential for finding tourist areas_)

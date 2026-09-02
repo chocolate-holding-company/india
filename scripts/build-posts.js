@@ -132,6 +132,11 @@ async function generatePosts() {
     "/src/assets/images/india-header-small.webp",
   );
 
+  // Skip draft or test posts
+  if (frontmatter.draft === true) {
+   continue;
+  }
+
   const finalHtml = template({
    ...frontmatter,
    description,

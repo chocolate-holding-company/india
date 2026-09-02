@@ -12,7 +12,7 @@
 
  /* default fluid fonts */
  /* Utilizing a clean formula: clamp(min, base + scaling, max) */
- --text-secondary-fluid: clamp(0.7rem, 0.5769rem + 0.6154vw, 1rem);
+ --text-secondary-fluid: clamp(0.8rem, 0.6769rem + 0.7154vw, 1rem);
  --text-lead-fluid: clamp(1.125rem, 1.04rem + 0.42vw, 1.375rem);
  --text-h1-fluid: clamp(2.5rem, 2.2rem + 1.5vw, 3.5rem);
  --text-semi-fluid: clamp(1.1rem, 1.0385rem + 0.3077vw, 1.25rem);

@@ -8,7 +8,7 @@ const leftLinks = [
   links: [
    {
     link: "Pedal to Israel",
-    link_url: "/blog/israel.html",
+    link_url: "/tester/",
    },
   ],
  },
@@ -29,11 +29,11 @@ const rightLinks = [
   links: [
    {
     link: "Winter Hill Walking Safety",
-    link_url: "/blog/winter-hill-walking-saftey.html",
+    link_url: "/tester/",
    },
    {
     link: "Navigation Skills for Hill Walkers",
-    link_url: "/blog/navigation-skills-for-hill-walkers.html",
+    link_url: "/tester/",
    },
   ],
  },
@@ -42,9 +42,9 @@ const rightLinks = [
   links: [
    {
     link: "Planning Your First Multi-Day Trek",
-    link_url: "/blog/planning-your-first-multi-day-trek.html",
+    link_url: "/tester/",
    },
-   { link: "About Walking", link_url: "/blog/about.html" },
+   { link: "About Walking", link_url: "/tester/" },
   ],
  },
 ];
@@ -56,8 +56,8 @@ function renderMenu(data, container) {
  data.forEach((group) => {
   // Create the Category Title
   let html = `
-            <div mb-4>
-                <h3 class="text-blue-500 uppercase tracking-[0.3em] text-sm font-bold mb-4 opacity-60">
+            <div mb-2>
+                <h3 class="text-blue-200 uppercase tracking-[0.3em] text-sm font-bold mb-4 opacity-60">
                     ${group.cat}
                 </h3>
                 <ul class="space-y-4 md:space-y-6">`;

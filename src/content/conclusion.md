@@ -5,7 +5,8 @@ slug: "conclusion"
 excerpt: "Cycle problems encountered while touring India included brake and pannier problems. The bike performed well but had a long-standing problem with brake discs."
 image: "/src/assets/images/in-conclusion-two.webp"
 thumb: "/src/assets/images/in-conclusion-two.webp"
-tags: ["india", "regrets", "learning"]
+tags: ["india", "summary"]
+draft: false
 ---
 
 ## Bike Problems
@@ -22,7 +23,7 @@ _One and only puncture_ - Picked up a puncture in the back tyre after going over
 
 ### 2260 mls - 3638 km
 
-On the back brake the plastic inner sheaf came through the metal stop cap at the brake handle. This made the back brake fairly useless, when the brake was pulled the cable and outer cable was pulled (_they should have been stopped by the metal stop_), which meant the inner cable was useless and so couldn’t pull the brake callipers. This is explained better in the _diagram below._ This problem along with the on-going brake disc problem shows that in general these brakes have been pretty useless right from the start.
+On the back brake the plastic inner sheaf came through the metal stop cap at the brake handle. This made the back brake fairly useless, when the brake was pulled the cable and outer cable was also pulled (_they should have been stopped by the metal stop_), which meant the inner cable was useless and so couldn’t pull the brake callipers. This is explained better in the _diagram below._ This problem along with the on-going brake disc problem shows that in general these brakes have been pretty useless right from the start.
 
 ![Problem with the back brake sheath](/src/assets/images/brake-section.png "Problem with the back brake sheath")
 

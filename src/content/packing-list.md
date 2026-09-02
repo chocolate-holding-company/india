@@ -5,7 +5,35 @@ slug: "packing-list"
 excerpt: "Packing for a cycle tour in India takes some planning, we need to be light yet carry all essential clothing and bike tools and fit all into two 20ltr panniers."
 image: "/src/assets/images/packing-small.webp"
 thumb: "/src/assets/images/packing-small.webp"
-tags: ["india", "preparation", "lists"]
+tags: ["india", "preparation"]
+draft: false
+---
+
+## Cycle Info
+
+- Gary Fisher - _Marlin Disc_
+- Frame - _Gold Series 6061 T6 aluminium, G2 Geometry, butted DT, cold-forged dropouts & BB_
+- Brake Set - _Avid BB5, mechanical disc, 160mm rotors_
+- Wheels - _Shimano M475 6-bolt disc hubs, Bontrager Ranger disc rims, 32h_
+- Tires - _Schwalbe Marathon 2.2_
+- Crank set - _Shimano M442-L, 44s/32s/22s_
+- Front Derailleur - _Shimano M531 Deore_
+- Rear Derailleur - _Shimano M531 Deore_
+- Shifters - _Shimano Deore M530_
+
+---
+
+## Bike Equipment
+
+- Touring Seating - _Changed the original_
+- Rear Rack
+- Handle Bar Bag
+- Ortlieb Classic Back Panniers
+- Waterproof Sack
+- Cycle Computer and Spare Battery
+- Pannier Spare Parts x 2 - _Brackets that secure bottom of pannier to rack (see cycle problems - ‘In Conclusion’ chapter)_
+- Pannier Rucksack Accessory - _Turns one of the panniers into a day rucksack - pretty useless_
+
 ---
 
 ![Gary Fisher Cycle with Ortlieb Panniers](/src/assets/images/bike-bags.png)
@@ -31,40 +59,13 @@ I got all this lot into a pair of Ortlieb panniers, total 40lt. I would really r
 - Glasses Prescription (_Scan_)
 - Small thin wallet
 
-<hr>
+___
 
 > [!INFO]
-> Where documents/papers were scanned - I scanned these to an online account ‘Mobile Me’
+> Where documents/papers were scanned - I scanned these to an online account "Mobile Me"
 
 > [!INFO]
 > Vaccination notes: Most of the vaccinations are quite cheap or free. Japanese Encephalitis is very expensive, £90.00 plus and may only be needed if visiting North India - check with the NHS website or your GP surgery. I never took or used any Malaria Tablets, they are very expensive and may only be needed if visiting North India, again, check
-
----
-
-## Cycle Info
-
-- Gary Fisher - _Marlin Disc_
-- Frame - _Gold Series 6061 T6 aluminium, G2 Geometry, butted DT, cold-forged dropouts & BB_
-- Brake Set - _Avid BB5, mechanical disc, 160mm rotors_
-- Wheels - _Shimano M475 6-bolt disc hubs, Bontrager Ranger disc rims, 32h_
-- Tires - _Schwalbe Marathon 2.2_
-- Crank set - _Shimano M442-L, 44s/32s/22s_
-- Front Derailleur - _Shimano M531 Deore_
-- Rear Derailleur - _Shimano M531 Deore_
-- Shifters - _Shimano Deore M530_
-
----
-
-## Bike Equipment
-
-- Touring Seating
-- Rear Rack
-- Handle Bar Bag
-- Ortlieb Classic Back Panniers
-- Waterproof Sack
-- Cycle Computer and Spare Battery
-- Pannier Spare Parts x 2 - _Brackets that secure bottom of pannier to rack (see cycle problems - ‘In Conclusion’ chapter)_
-- Pannier Rucksack Accessory - _Turns one of the panniers into a day rucksack - pretty useless_
 
 ---
 
@@ -118,7 +119,7 @@ I got all this lot into a pair of Ortlieb panniers, total 40lt. I would really r
 - Small Binoculars
 - Mosquito Net
 - Note Book + Pens/Pencils
-- Universal Sink Plug (_absolute rubbish_)
+- Universal Sink Plug (_pretty useless_)
 - String
 - Water Purifier - _UV type (These are really good but expensive. The tap water in India is warm, if it’s not, it soon gets too warm to drink with the sun on route. Bottled water in India is cheap and is purified by the same UV method. Coke and other soft drinks are cheap. It’s not worth taking a water purifier)_
 - Map, Guide Book, Phrase Book (_India_) - _Good local/state maps can be purchased cheaply in India_
