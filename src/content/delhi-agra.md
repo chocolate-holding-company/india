@@ -1,8 +1,8 @@
 ---
-title: "Lost in India: A Chronicle of a Delhi-to-Agra Cycling Adventure"
+title: "Delhi to Agra - Lost in India"
 date: "2026-08-07"
 slug: "delhi-agra"
-excerpt: "Pahari? Of all the places to end up, I had somehow managed to cycle miles in the wrong direction. As the rain began to fall in earnest, bringing with it a biting chill and absolute darkness, I faced a daunting reality."
+excerpt: "Thinking of cycling from Delhi to Agra? Learn from my hilarious mistakes: cursed gypsy priests, Blow Horn trucks, heavy mud, and moldy toast standoffs."
 image: "/src/assets/images/delhi-agra.webp"
 thumb: "/src/assets/images/delhi-agra.webp"
 tags: ["india", "lost", "delhi", "agra"]
@@ -10,7 +10,7 @@ draft: false
 ---
 
 <div class="post-hero">
- <img src="/src/assets/images/delhi-agra.png" alt="Delhi to Agra - Lost in India" />
+ <img src="/src/assets/images/delhi-agra.png" alt="Delhi to Agra Map showing the route and towns passsed through" />
  <div>
   <p>
    <em>Where!</em> <strong>Pahari?</strong> A few words of my English finally
@@ -144,7 +144,7 @@ He stared at the bread, looked at me, and then calmly picked up the moldy toast 
 
 Faced with that level of absolute, unwavering customer service defiance, there was simply nothing left to say.
 
-![Krishner birthplace temple and cows free to roam the streets](/src/assets/images/mathura.png)
+![Krishner birthplace temple and cows free to roam the streets](/src/assets/images/mathura.png "temple of Krishner birth place and the cows free to roam the streets eating anything but grass")
 
 ## Arrival in Agra
 
@@ -152,7 +152,7 @@ The final leg of my journey to Agra was a breeze. The 40-kilometre stretch was f
 
 Upon rolling into Agra, I finally spotted the signs pointing toward the legendary Taj Mahal—which, in true Indian fashion, was still another 12 kilometres away.
 
-![](/src/assets/images/lost-india.webp "Lost in India info grahic")
+![](/src/assets/images/lost-india.webp "A humorous cartoon detaling the Delhi to Agra adventures")
 
 **If I could do it all over again, I would:**
 

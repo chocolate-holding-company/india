@@ -1,8 +1,8 @@
 ---
-title: "In Conclusion"
+title: "India - Trip Conclusion"
 date: "2026-09-25"
 slug: "conclusion"
-excerpt: "Cycle problems encountered while touring India included brake and pannier problems. The bike performed well but had a long-standing problem with brake discs."
+excerpt: "A summary of the India trip including cycle problems, break and pannier, what I should have taken, the  trains, loosing the cycle and travelling second class."
 image: "/src/assets/images/in-conclusion-two.webp"
 thumb: "/src/assets/images/in-conclusion-two.webp"
 tags: ["india", "summary"]
@@ -25,7 +25,7 @@ _One and only puncture_ - Picked up a puncture in the back tyre after going over
 
 On the back brake the plastic inner sheaf came through the metal stop cap at the brake handle. This made the back brake fairly useless, when the brake was pulled the cable and outer cable was also pulled (_they should have been stopped by the metal stop_), which meant the inner cable was useless and so couldn’t pull the brake callipers. This is explained better in the _diagram below._ This problem along with the on-going brake disc problem shows that in general these brakes have been pretty useless right from the start.
 
-![Problem with the back brake sheath](/src/assets/images/brake-section.png "Problem with the back brake sheath")
+![Problem with the back brake sheath](/src/assets/images/brake-section.png "Problem with the back brake sheath where the metal stop had worn letting the cable come through so making the setup useless")
 
 ### 2929 mls - 4715 km
 
@@ -50,7 +50,7 @@ As already mentioned, _the on-going brake pad problem_; I had to tighten the fix
 
 Problem throughout the trip with the pannier bottom bracket, it kept jumping off the stays on the rack due to the _rough roads_. Needs some sort of clip to hold it in place. Otherwise I cannot fault the panniers and _would recommend_ them.
 
-![Pannier problem with one of the brackets](/src/assets/images/panier-problem.png "Pannier problem with one of the brackets")
+![Pannier problem with one of the brackets](/src/assets/images/panier-problem.png "The bracket kept jumping off the rack on the rough Indian roads")
 
 ### The bike suffered train travel
 

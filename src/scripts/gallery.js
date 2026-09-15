@@ -97,7 +97,7 @@ function renderPosts() {
         <h3 class="text-xl font-bold mt-2 mb-2 text-slate-900 hover:text-blue-600">
           <a href="${post.url}" class="text-blue-600">${post.title}</a>
         </h3>
-        ${post.excerpt ? `<p class="text-slate-600 text-sm leading-relaxed">${post.excerpt}</p>` : ""}
+        ${post.excerpt ? `<p class="text-slate-600 line-clamp-3 text-sm leading-relaxed">${post.excerpt}</p>` : ""}
         <div class="flex items-center justify-between border-t-slate-300 border-t-[1px] pt-3 mt-2">
           <time class="text-xs font-semibold text-slate-400 uppercase tracking-wider">${formatDate(post.date)}</time>
           <div class="flex gap-1">

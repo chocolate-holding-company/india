@@ -31,7 +31,7 @@ Traffic rules here don't care about who got there first; they only care about wh
 
 In Delhi, a honk doesn't mean "I hate you"—it just translates to: _"I am taking this space, so please move over"_. Amazingly, even though drivers cut each other off constantly, nobody gets angry. Left turns on red lights are super handy, but going straight means waiting in a giant, squished pack of cars that literally nudge each other forward.
 
-![Crazy Indian Roads](/src/assets/images/delhi-roads.jpg)
+![Crazy Indian Roads](/src/assets/images/delhi-roads.jpg "Drivers pushing, slowly towards Delhi center on the crazy Indian roads")
 
 ## Finding a Bed (and a Scary Fan)
 
@@ -43,7 +43,7 @@ The bathroom was basically a wet room. The sink looked nice, but it wasn't actua
 
 To shower, you fill a bucket with solar-heated water from the roof and pour it over your head. Even when it's 30°C outside, dumping a bucket of water over your head makes you gasp for air. If you are travelling on a budget, you can find rooms in India for just £4, but they are literally just a bare room with a toilet and a tap.
 
-![Most Rooms are Basic but Cheap](/src/assets/images/delhi-room.jpg)
+![Most Rooms are Basic but Cheap](/src/assets/images/delhi-room.jpg " Cheap budget hotel room showing basic room with very basic bathroom - only half the facilities work")
 
 ## Dinner with the "Dingos"
 
@@ -61,7 +61,7 @@ Walking around in the boiling heat quickly became exhausting. The monuments are 
 
 Every single inch of Delhi is filled with someone selling something, even if it's just a guy sitting on a blanket on the street selling tea. It's a crowded, hardworking city with lots of litter and heartbreaking poverty.
 
-![Lots of Dogs and Living on the Streets](/src/assets/images/delhi-dogs.jpg)
+![Lots of Dogs and Living on the Streets](/src/assets/images/delhi-dogs.jpg " Half wild dogs roaming the streets and people living and trying to make a living on the streets")
 
 ## The Verdict
 
@@ -69,7 +69,7 @@ Honestly, Delhi is too big, loud, and stressful to love in just two days, and I 
 
 ---
 
-![](/src/assets/images/delhi-info-graphic.webp)
+![](/src/assets/images/delhi-info-graphic.webp "A Delhi cyclists instructions for cycling into and around Delhi in a humurous cartoon picture")
 
 **If I went again:**
 

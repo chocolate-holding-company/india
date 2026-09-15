@@ -1,5 +1,5 @@
 ---
-title: "Packing List"
+title: "Packing List for Cycling India"
 date: "2026-07-06"
 slug: "packing-list"
 excerpt: "Packing for a cycle tour in India takes some planning, we need to be light yet carry all essential clothing and bike tools and fit all into two 20ltr panniers."
@@ -36,7 +36,7 @@ draft: false
 
 ---
 
-![Gary Fisher Cycle with Ortlieb Panniers](/src/assets/images/bike-bags.png)
+![Gary Fisher Cycle with Ortlieb Panniers](/src/assets/images/bike-bags.png "Gary Fisher - Marlin Disc mountain bike adapted for the road with Ortlieb panniers")
 
 ---
 
@@ -59,7 +59,7 @@ I got all this lot into a pair of Ortlieb panniers, total 40lt. I would really r
 - Glasses Prescription (_Scan_)
 - Small thin wallet
 
-___
+---
 
 > [!INFO]
 > Where documents/papers were scanned - I scanned these to an online account "Mobile Me"

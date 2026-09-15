@@ -4,47 +4,25 @@ const leftLinks = [
   links: [{ link: "Home", link_url: "/" }],
  },
  {
-  cat: "Routes",
-  links: [
-   {
-    link: "Pedal to Israel",
-    link_url: "/tester/",
-   },
-  ],
- },
- {
   cat: "India",
   links: [
-   { link: "Packing List", link_url: "/packing-list/" },
+   { link: "Packing List for Cycling India", link_url: "/packing-list/" },
    { link: "Navigating Delhi by Cycle", link_url: "/delhi/" },
-   { link: "Lost in India", link_url: "/delhi-agra/" },
-   { link: "In Conclusion", link_url: "/conclusion/" },
+   { link: "Delhi to Agra - Lost in India", link_url: "/delhi-agra/" },
+   { link: "Agra and More", link_url: "/agra-more/" },
+   { link: "India - Trip Conclusion", link_url: "/conclusion/" },
   ],
  },
 ];
 
 const rightLinks = [
  {
-  cat: "Safety",
+  cat: "Israel",
   links: [
    {
-    link: "Winter Hill Walking Safety",
+    link: "Pedal to Israel",
     link_url: "/tester/",
    },
-   {
-    link: "Navigation Skills for Hill Walkers",
-    link_url: "/tester/",
-   },
-  ],
- },
- {
-  cat: "Advanced",
-  links: [
-   {
-    link: "Planning Your First Multi-Day Trek",
-    link_url: "/tester/",
-   },
-   { link: "About Walking", link_url: "/tester/" },
   ],
  },
 ];
@@ -57,10 +35,10 @@ function renderMenu(data, container) {
   // Create the Category Title
   let html = `
             <div mb-2>
-                <h3 class="text-blue-200 uppercase tracking-[0.3em] text-sm font-bold mb-4 opacity-60">
+                <h3 class="text-blue-300 uppercase tracking-[0.6em] text-sm font-bold mb-4 opacity-80">
                     ${group.cat}
                 </h3>
-                <ul class="space-y-4 md:space-y-6">`;
+                <ul class="space-y-2 md:space-y-4">`;
 
   // Loop through the links in this category
   group.links.forEach((item) => {

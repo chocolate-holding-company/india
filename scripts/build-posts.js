@@ -20,6 +20,16 @@ const marked = new Marked({
    return `<img src="${href}" ${title ? `title="${title}"` : ""} class="w-full rounded-lg my-8" />`;
   },
 
+  paragraph(token) {
+   // Check if the paragraph contains ONLY a single image
+   if (token.tokens.length === 1 && token.tokens[0].type === "image") {
+    // Return just the image HTML without the wrapping <p>...</p>
+    return this.parser.parseInline(token.tokens) + "\n";
+   }
+   // Fall back to default paragraph behavior for normal text
+   return `<p>${this.parser.parseInline(token.tokens)}</p>\n`;
+  },
+
   blockquote(token) {
    // 1. Safely extract rendered HTML string across different Marked versions
    // (In marked v12+, token is an object containing 'text' or 'raw')
