@@ -5,7 +5,7 @@ slug: "packing-list"
 excerpt: "Packing for a cycle tour in India takes some planning, we need to be light yet carry all essential clothing and bike tools and fit all into two 20ltr panniers."
 image: "/src/assets/images/packing-small.webp"
 thumb: "/src/assets/images/packing-small.webp"
-tags: ["india", "preparation"]
+tags: ["preparation"]
 draft: false
 ---
 

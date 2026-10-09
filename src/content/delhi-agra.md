@@ -5,7 +5,7 @@ slug: "delhi-agra"
 excerpt: "Thinking of cycling from Delhi to Agra? Learn from my hilarious mistakes: cursed gypsy priests, Blow Horn trucks, heavy mud, and moldy toast standoffs."
 image: "/src/assets/images/delhi-agra.webp"
 thumb: "/src/assets/images/delhi-agra.webp"
-tags: ["india", "lost", "delhi", "agra"]
+tags: ["lost", "delhi", "agra"]
 draft: false
 ---
 

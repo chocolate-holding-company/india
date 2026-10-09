@@ -1,29 +1,27 @@
 const leftLinks = [
  {
   cat: "Pages",
-  links: [{ link: "Home", link_url: "/" }],
+  links: [
+   { link: "Home", link_url: "/" },
+   { link: "Packing List for Cycling India", link_url: "/packing-list/" },
+   { link: "India - Trip Conclusion", link_url: "/conclusion/" },
+  ],
  },
  {
-  cat: "India",
+  cat: "North India",
   links: [
-   { link: "Packing List for Cycling India", link_url: "/packing-list/" },
    { link: "Navigating Delhi by Cycle", link_url: "/delhi/" },
    { link: "Delhi to Agra - Lost in India", link_url: "/delhi-agra/" },
    { link: "Agra and More", link_url: "/agra-more/" },
-   { link: "India - Trip Conclusion", link_url: "/conclusion/" },
+   { link: "Kota to Mumbai Second Class", link_url: "/kota-mumbia/" },
   ],
  },
 ];
 
 const rightLinks = [
  {
-  cat: "Israel",
-  links: [
-   {
-    link: "Pedal to Israel",
-    link_url: "/tester/",
-   },
-  ],
+  cat: "West Coast",
+  links: [{ link: "Kota to Mumbai Second Class", link_url: "/kota-mumbia/" }],
  },
 ];
 

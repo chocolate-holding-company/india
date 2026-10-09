@@ -1,11 +1,11 @@
 ---
 title: "India - Trip Conclusion"
-date: "2026-09-25"
+date: "2026-12-25"
 slug: "conclusion"
 excerpt: "A summary of the India trip including cycle problems, break and pannier, what I should have taken, the  trains, loosing the cycle and travelling second class."
 image: "/src/assets/images/in-conclusion-two.webp"
 thumb: "/src/assets/images/in-conclusion-two.webp"
-tags: ["india", "summary"]
+tags: ["summary"]
 draft: false
 ---
 

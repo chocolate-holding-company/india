@@ -5,7 +5,7 @@ slug: "delhi"
 excerpt: "Delhi an introduction to incredible India, the famous roads, budget hotels, the first real curry, the heat and ooh! that smell, what a culture shock."
 image: "/src/assets/images/delhi-header.webp"
 thumb: "/src/assets/images/delhi-header.webp"
-tags: ["india", "delhi"]
+tags: ["delhi"]
 draft: false
 ---
 
