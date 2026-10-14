@@ -23,7 +23,6 @@ draft: false
 ## Agra: Monuments, Mirage, and... Pizza Hut
 
 Agra is a city of two distinct personalities. On one hand, you have the main city: a sprawling, chaotic, and relentlessly busy Indian metropolis. On the other hand, you have the area surrounding the majestic Taj Mahal—still chaotic, yes, but tempered by cheap guesthouses, rooftop restaurants, and that unmistakable white marble dome dominating the skyline.
-==This will have to be removed later==
 
 While the standard recommendation is to stay right next to the Taj, our journey involved a hotel positioned about 1.5 kilometres away toward the city centre. This choice yielded an unexpected culinary triumph: a Pizza Hut just 200 metres down the road, which served up what was arguably one of the best meals of the trip—perfectly crispy pizzas, fresh salads, and fries.
 
